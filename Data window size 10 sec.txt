@@ -1,0 +1,6 @@
+check for Data window size( 10 sec or less then 10)
+check for data window size used in papers
+Model used
+Matrixes
+#Papers ( objective , methods , abstract and matrix )
+# steps of data processing ( for ppt)

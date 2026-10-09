@@ -1,0 +1,93 @@
+{
+  "dataset_name": "PTB-XL Electrocardiography Dataset",
+  "dataset_version": "1.0.3",
+  "project": "Project A: Age-Stratified Explainable & Uncertainty-Calibrated ECG Diagnosis",
+  "creation_timestamp_utc": "2026-08-18T16:46:25.829565+00:00",
+  "sampling_frequency_hz": 100,
+  "signal_duration_seconds": 10.0,
+  "signal_samples": 1000,
+  "num_leads": 12,
+  "lead_names": [
+    "I",
+    "II",
+    "III",
+    "aVR",
+    "aVL",
+    "aVF",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "physical_units": "millivolts (mV)",
+  "preprocessing_pipeline": {
+    "physical_calibration": "(raw_adc - baseline) / gain",
+    "bandpass_filtering": "Zero-phase 3rd-order Butterworth bandpass filter (0.5 to 40.0 Hz)",
+    "normalization": "Lead-wise Z-score normalization fitted strictly on the TRAIN split"
+  },
+  "target_definitions": {
+    "diagnostic_superclasses": [
+      "NORM",
+      "MI",
+      "STTC",
+      "CD",
+      "HYP"
+    ],
+    "classification_type": "multi-label binary classification",
+    "age_regression": "patient chronological age in years",
+    "age_groups": {
+      "<40": "[0, 40) years",
+      "40-65": "[40, 65) years",
+      "65-80": "[65, 80) years",
+      "80+": "[80, 150] years"
+    },
+    "elderly_binary": "elderly_65_plus (age >= 65 -> 1, age < 65 -> 0)"
+  },
+  "split_definitions": {
+    "architecture": "4-Way Patient-Separated Structure (TRAIN -> VALIDATION -> CALIBRATION -> TEST)",
+    "TRAIN": "Folds 1-8 (~80%, development & model training)",
+    "VALIDATION": "Fold 9, Partition A (~5%, hyperparameter tuning & early stopping)",
+    "CALIBRATION": "Fold 9, Partition B (~5%, distribution-free conformal calibration & temperature scaling)",
+    "TEST": "Fold 10 (~10%, strictly untouched final evaluation benchmark)"
+  },
+  "statistics": {
+    "total_records": 21799,
+    "unique_patients": 18869,
+    "split_counts": {
+      "TRAIN": 17418,
+      "VALIDATION": 1080,
+      "CALIBRATION": 1103,
+      "TEST": 2198
+    },
+    "patient_leakage_counts": {
+      "train_val": 0,
+      "train_cal": 0,
+      "train_test": 0,
+      "val_cal": 0,
+      "val_test": 0,
+      "cal_test": 0
+    },
+    "class_prevalences": {
+      "NORM": 9514,
+      "MI": 5469,
+      "STTC": 5235,
+      "CD": 4898,
+      "HYP": 2649
+    },
+    "age_statistics": {
+      "mean": 62.76930134409835,
+      "median": 62.0,
+      "elderly_65_plus_pct": 43.53,
+      "group_80_plus_pct": 11.08
+    }
+  },
+  "exported_artifacts": {
+    "master_metadata_csv": "data/processed/MASTER_RESEARCH_METADATA.csv",
+    "train_signals_npy": "data/processed/X_train_clean_100.npy",
+    "val_signals_npy": "data/processed/X_val_clean_100.npy",
+    "cal_signals_npy": "data/processed/X_cal_clean_100.npy",
+    "test_signals_npy": "data/processed/X_test_clean_100.npy"
+  }
+}

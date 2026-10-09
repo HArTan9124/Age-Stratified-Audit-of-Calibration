@@ -1,0 +1,112 @@
+# ─────────────────────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.venv1/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ─────────────────────────────────────────────────────────────
+# Secrets / environment  (never commit .env; see .env.example)
+# ─────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─────────────────────────────────────────────────────────────
+# PTB-XL raw dataset (re-downloadable from PhysioNet, ~2.6 GB)
+# ─────────────────────────────────────────────────────────────
+records100/
+records500/
+RECORDS
+SHA256SUMS.txt
+ptbxl_database.csv
+scp_statements.csv
+ptbxl_weka_basic.csv
+ptbxl_v102_changelog.txt
+ptbxl_v103_changelog.txt
+
+# ─────────────────────────────────────────────────────────────
+# Large / regenerable artifacts (model weights, cached arrays)
+# ─────────────────────────────────────────────────────────────
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# ─────────────────────────────────────────────────────────────
+# Manuscript & slides (maintained outside git, e.g. Overleaf)
+# ─────────────────────────────────────────────────────────────
+papers/
+presentations/
+
+# ─────────────────────────────────────────────────────────────
+# Local working logs
+# ─────────────────────────────────────────────────────────────
+DAILY_DEVELOPMENT_LOG.md
+CHAT.md
+
+# ─────────────────────────────────────────────────────────────
+# Backups & scratch
+# ─────────────────────────────────────────────────────────────
+.backup_*/
+*.bak
+*.tmp
+
+# ─────────────────────────────────────────────────────────────
+# LaTeX build artifacts
+# ─────────────────────────────────────────────────────────────
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.synctex.gz
+*.synctex(busy)
+*.fdb_latexmk
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+*.dvi
+
+# ─────────────────────────────────────────────────────────────
+# OS / editor
+# ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+.vscode/
+.idea/
+*.swp
+*.swo

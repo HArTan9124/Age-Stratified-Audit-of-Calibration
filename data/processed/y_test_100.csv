@@ -1,0 +1,2199 @@
+ecg_id,patient_id,age,age_group,sex,sex_label,bmi,bmi_category,is_NORM,is_MI,is_STTC,is_CD,is_HYP,is_normal_ecg,is_pathological,strat_fold
+9,18792.0,55.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+38,17076.0,40.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+40,19501.0,60.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+57,16063.0,26.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+59,19475.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+63,15265.0,30.0,30-44,0,Female,,,False,True,False,False,False,False,True,10
+65,19170.0,62.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+75,18502.0,31.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+76,21214.0,38.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+79,17529.0,47.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+93,10029.0,47.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+100,21404.0,20.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+112,19832.0,44.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+115,11591.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+116,19695.0,49.0,45-59,1,Male,24.441802087462015,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+117,16747.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+119,16747.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+121,16747.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+122,19832.0,44.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+128,17735.0,33.0,30-44,0,Female,,,False,False,True,False,False,False,True,10
+129,16463.0,41.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+132,16747.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+157,8131.0,74.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+160,13470.0,68.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+162,9780.0,85.0,75+,1,Male,,,False,True,True,True,True,False,True,10
+167,16774.0,54.0,45-59,0,Female,,,False,False,True,False,False,False,True,10
+172,20766.0,62.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+175,21114.0,64.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+180,15592.0,81.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+201,19208.0,32.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+203,11070.0,46.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+208,8309.0,25.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+210,16062.0,58.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+218,13925.0,60.0,60-74,0,Female,,,True,False,False,True,False,False,False,10
+240,9601.0,54.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+241,14702.0,23.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+243,11567.0,29.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+245,8294.0,46.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+252,20848.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+271,449.0,75.0,75+,0,Female,26.573129251700685,Overweight (25.0-29.9),False,True,True,False,True,False,True,10
+274,5662.0,67.0,60-74,1,Male,25.969529085872576,Overweight (25.0-29.9),False,True,True,False,True,False,True,10
+299,7852.0,59.0,45-59,1,Male,31.238589800803275,Obese (>=30.0),False,False,True,False,True,False,True,10
+318,2034.0,56.0,45-59,0,Female,35.37957770333848,Obese (>=30.0),False,False,True,False,False,False,True,10
+334,2065.0,69.0,60-74,1,Male,24.218749999999996,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+336,449.0,75.0,75+,0,Female,26.573129251700685,Overweight (25.0-29.9),False,False,True,False,True,False,True,10
+347,449.0,75.0,75+,0,Female,26.573129251700685,Overweight (25.0-29.9),False,False,True,True,True,False,True,10
+361,13000.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+364,15645.0,20.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+377,11498.0,17.0,<30,1,Male,,,False,False,False,True,False,False,True,10
+378,11498.0,17.0,<30,1,Male,,,False,False,False,True,False,False,True,10
+382,10186.0,81.0,75+,0,Female,,,False,False,False,False,False,False,False,10
+388,16023.0,83.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+397,15768.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+400,10987.0,38.0,30-44,1,Male,,,False,False,True,False,False,False,True,10
+405,18087.0,38.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+417,4938.0,75.0,75+,1,Male,22.03856749311295,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+427,6476.0,86.0,75+,1,Male,22.476586888657646,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+430,1207.0,62.0,60-74,0,Female,20.3561029658069,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+440,2706.0,58.0,45-59,1,Male,39.25652940233936,Obese (>=30.0),True,False,False,False,False,True,False,10
+448,12306.0,62.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+449,20057.0,63.0,60-74,1,Male,,,False,False,False,False,False,False,False,10
+452,13110.0,78.0,75+,0,Female,,,False,False,True,False,True,False,True,10
+472,1360.0,62.0,60-74,1,Male,27.475629493018182,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+473,2398.0,58.0,45-59,0,Female,22.59814049586777,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+478,6312.0,39.0,30-44,0,Female,20.654142145767317,Normal (18.5-24.9),True,False,False,True,False,False,False,10
+499,2678.0,60.0,60-74,0,Female,26.448979591836736,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+504,3602.0,29.0,<30,1,Male,30.405292525644022,Obese (>=30.0),True,False,False,False,False,True,False,10
+512,16695.0,77.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+514,12005.0,61.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+516,13237.0,37.0,30-44,0,Female,,,False,False,True,False,True,False,True,10
+526,13769.0,69.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+527,15828.0,61.0,60-74,0,Female,,,False,False,True,True,False,False,True,10
+534,20068.0,80.0,75+,1,Male,,,False,False,True,False,True,False,True,10
+559,12042.0,58.0,45-59,0,Female,27.143037495265748,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+564,16912.0,62.0,60-74,0,Female,,,False,True,True,False,False,False,True,10
+569,2936.0,300.0,,1,Male,23.711844630960897,Normal (18.5-24.9),False,False,True,True,False,False,True,10
+570,7793.0,47.0,45-59,0,Female,24.41927902078691,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+573,5837.0,73.0,60-74,1,Male,26.026174895895306,Overweight (25.0-29.9),False,False,True,False,True,False,True,10
+581,583.0,73.0,60-74,1,Male,20.703124999999996,Normal (18.5-24.9),False,True,True,True,False,False,True,10
+582,10987.0,38.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+584,18236.0,41.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+598,583.0,73.0,60-74,1,Male,20.703124999999996,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+611,4083.0,63.0,60-74,0,Female,25.10387811634349,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+618,6417.0,81.0,75+,1,Male,24.801587301587304,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+619,1240.0,55.0,45-59,1,Male,22.832879346258608,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+658,9050.0,46.0,45-59,0,Female,,,False,False,False,True,False,False,True,10
+685,362.0,85.0,75+,0,Female,18.93700290367378,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+687,7483.0,77.0,75+,1,Male,28.040378144528116,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+688,362.0,85.0,75+,0,Female,18.93700290367378,Normal (18.5-24.9),False,False,True,True,False,False,True,10
+694,4203.0,49.0,45-59,1,Male,26.83518005540166,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+696,7153.0,57.0,45-59,0,Female,25.127830533235937,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+707,962.0,69.0,60-74,1,Male,28.124999999999993,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+723,1290.0,71.0,60-74,0,Female,26.794938016528928,Overweight (25.0-29.9),False,True,True,False,False,False,True,10
+726,3280.0,60.0,60-74,1,Male,23.661438615467823,Normal (18.5-24.9),True,False,False,True,False,False,False,10
+732,3289.0,49.0,45-59,1,Male,30.119375573921033,Obese (>=30.0),True,False,False,False,False,True,False,10
+751,419.0,64.0,60-74,0,Female,36.011080332409975,Obese (>=30.0),True,False,False,False,False,True,False,10
+756,4037.0,70.0,60-74,1,Male,24.034609838166958,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+758,419.0,64.0,60-74,0,Female,36.011080332409975,Obese (>=30.0),True,False,False,False,False,True,False,10
+764,7309.0,55.0,45-59,1,Male,35.26170798898072,Obese (>=30.0),True,False,False,False,False,True,False,10
+765,3194.0,63.0,60-74,1,Male,26.171874999999996,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+775,20803.0,40.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+779,20190.0,41.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+789,8997.0,70.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+795,20029.0,60.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+799,18739.0,61.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+805,14400.0,56.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+806,16040.0,51.0,45-59,1,Male,,,False,False,False,True,False,False,True,10
+821,21490.0,53.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+848,7516.0,75.0,75+,0,Female,23.24598478444632,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+854,4319.0,53.0,45-59,0,Female,,,False,True,True,False,False,False,True,10
+861,1432.0,82.0,75+,1,Male,27.548209366391188,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+886,3744.0,79.0,75+,1,Male,27.055150884495315,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+892,6569.0,77.0,75+,1,Male,26.92743764172336,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+911,6027.0,51.0,45-59,1,Male,40.898274836406905,Obese (>=30.0),True,False,False,False,False,True,False,10
+917,5200.0,49.0,45-59,0,Female,23.661438615467823,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+928,4709.0,56.0,45-59,1,Male,27.68166089965398,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+931,12493.0,32.0,30-44,0,Female,,,True,False,False,True,False,False,False,10
+935,13282.0,44.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+943,3493.0,62.0,60-74,1,Male,18.73278236914601,Normal (18.5-24.9),False,True,False,False,True,False,True,10
+947,2560.0,71.0,60-74,1,Male,22.4058769513315,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+949,2809.0,64.0,60-74,1,Male,24.218749999999996,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+950,4533.0,76.0,75+,1,Male,16.649323621227886,Underweight (<18.5),False,False,False,True,False,False,True,10
+952,1608.0,57.0,45-59,1,Male,23.938989774631512,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+958,14961.0,19.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+959,1981.0,88.0,75+,1,Male,24.088223117166624,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+963,6546.0,86.0,75+,1,Male,19.921874999999996,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+968,4944.0,79.0,75+,0,Female,24.221453287197235,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+975,672.0,44.0,30-44,1,Male,35.59183673469388,Obese (>=30.0),False,True,False,True,False,False,True,10
+1009,2406.0,60.0,60-74,1,Male,20.820939916716245,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+1013,6079.0,68.0,60-74,1,Male,22.77318640955005,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+1014,2901.0,78.0,75+,0,Female,27.548209366391188,Overweight (25.0-29.9),False,True,False,True,False,False,True,10
+1016,5676.0,39.0,30-44,0,Female,25.61728395061728,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+1031,1534.0,61.0,60-74,0,Female,26.42356982428326,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+1051,1997.0,60.0,60-74,0,Female,29.93827160493827,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+1054,17241.0,41.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+1056,7772.0,72.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+1061,1302.0,35.0,30-44,0,Female,25.099501595611173,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+1068,1886.0,300.0,,1,Male,19.531249999999996,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+1078,857.0,69.0,60-74,0,Female,21.71806608974573,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+1084,7374.0,74.0,60-74,0,Female,22.86236854138088,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+1093,1623.0,77.0,75+,0,Female,27.755102040816325,Overweight (25.0-29.9),False,True,True,True,False,False,True,10
+1094,21499.0,21.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+1100,1942.0,52.0,45-59,1,Male,17.578124999999996,Underweight (<18.5),True,False,False,False,False,True,False,10
+1101,6198.0,53.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+1113,16771.0,48.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+1120,17730.0,43.0,30-44,0,Female,,,False,False,False,True,False,False,True,10
+1133,3160.0,62.0,60-74,1,Male,28.999307479224377,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+1147,3273.0,43.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+1157,7718.0,81.0,75+,0,Female,20.902385858042937,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+1158,3695.0,89.0,75+,1,Male,22.67573696145125,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+1166,869.0,50.0,45-59,1,Male,28.344671201814062,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+1169,3963.0,57.0,45-59,0,Female,27.513384889946465,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+1172,4228.0,72.0,60-74,0,Female,24.78425751739377,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+1175,5275.0,63.0,60-74,0,Female,20.936639118457304,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+1186,651.0,86.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+1197,7417.0,35.0,30-44,1,Male,18.77834467120182,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+1200,5266.0,68.0,60-74,0,Female,31.22130394857668,Obese (>=30.0),False,True,False,True,False,False,True,10
+1219,6184.0,38.0,30-44,1,Male,20.66115702479339,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+1220,1810.0,83.0,75+,1,Male,21.484374999999996,Normal (18.5-24.9),True,False,False,True,False,False,False,10
+1246,11417.0,42.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+1251,8574.0,60.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+1266,14284.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+1268,17735.0,35.0,30-44,0,Female,,,False,False,True,False,False,False,True,10
+1275,9170.0,79.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+1280,14661.0,19.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+1282,9760.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+1287,20417.0,51.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+1307,18133.0,26.0,<30,0,Female,,,False,False,False,False,True,False,True,10
+1311,17508.0,19.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+1315,13702.0,25.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+1320,4332.0,80.0,75+,0,Female,20.983987603305785,Normal (18.5-24.9),False,True,True,False,True,False,True,10
+1343,20205.0,65.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+1351,2187.0,76.0,75+,0,Female,27.33564013840831,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+1353,1788.0,83.0,75+,1,Male,24.034609838166958,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+1355,2430.0,66.0,60-74,1,Male,18.68512110726644,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+1377,5112.0,73.0,60-74,0,Female,23.93948099205209,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+1386,7072.0,66.0,60-74,0,Female,23.04002019946976,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+1391,13459.0,59.0,45-59,0,Female,,,False,True,False,True,False,False,True,10
+1394,11281.0,65.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+1405,16781.0,70.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+1416,16693.0,66.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+1424,8130.0,78.0,75+,1,Male,,,False,False,True,True,False,False,True,10
+1426,16997.0,60.0,60-74,0,Female,,,False,False,True,False,True,False,True,10
+1429,15586.0,62.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+1447,13478.0,64.0,60-74,1,Male,,,False,True,False,False,True,False,True,10
+1456,13776.0,78.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+1458,8150.0,20.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+1468,13411.0,75.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+1479,12663.0,49.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+1480,18328.0,39.0,30-44,0,Female,,,False,True,True,False,True,False,True,10
+1487,14823.0,34.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+1491,16837.0,70.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+1494,11070.0,48.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+1498,17124.0,42.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+1522,2313.0,73.0,60-74,0,Female,29.536862003780715,Overweight (25.0-29.9),False,False,False,False,True,False,True,10
+1534,7120.0,45.0,45-59,0,Female,22.59814049586777,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+1556,3392.0,80.0,75+,1,Male,19.921874999999996,Normal (18.5-24.9),False,True,False,False,True,False,True,10
+1564,2281.0,76.0,75+,0,Female,24.221453287197235,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+1571,11710.0,79.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+1589,3555.0,55.0,45-59,1,Male,18.749999999999996,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+1617,5003.0,59.0,45-59,0,Female,25.102391333069097,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+1618,17507.0,39.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+1624,5715.0,63.0,60-74,0,Female,21.383941996057334,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+1630,8804.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+1632,3245.0,70.0,60-74,1,Male,28.19692120103642,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+1639,3283.0,39.0,30-44,0,Female,25.61728395061728,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+1655,7559.0,78.0,75+,0,Female,22.99262444384723,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+1697,9414.0,44.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+1700,14516.0,57.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+1705,20120.0,47.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+1708,21253.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+1717,20306.0,71.0,60-74,0,Female,,,False,False,False,False,False,False,False,10
+1736,19382.0,76.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+1737,13841.0,67.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+1741,9222.0,35.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+1745,21332.0,71.0,60-74,1,Male,,,False,False,False,False,True,False,True,10
+1746,21588.0,26.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+1747,19382.0,76.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+1753,9838.0,61.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+1757,16264.0,35.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+1769,2427.0,71.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+1775,4148.0,70.0,60-74,1,Male,27.548209366391188,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+1780,1021.0,47.0,45-59,1,Male,20.449137418203453,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+1785,13570.0,81.0,75+,0,Female,,,False,False,False,False,True,False,True,10
+1790,1839.0,73.0,60-74,0,Female,22.530864197530864,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+1792,7719.0,300.0,,1,Male,21.338210638622158,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+1812,2992.0,80.0,75+,1,Male,20.761245674740486,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+1825,4436.0,51.0,45-59,0,Female,29.387755102040817,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+1835,15162.0,25.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+1838,3230.0,54.0,45-59,0,Female,23.437499999999996,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+1843,20283.0,65.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+1850,4339.0,63.0,60-74,1,Male,18.749999999999996,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+1853,6226.0,56.0,45-59,1,Male,21.928862769176792,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+1857,7866.0,24.0,<30,0,Female,30.116213151927443,Obese (>=30.0),True,False,False,False,False,True,False,10
+1860,16593.0,33.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+1864,2666.0,81.0,75+,0,Female,23.183673469387756,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+1867,12695.0,47.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+1870,10747.0,48.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+1885,17863.0,28.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+1899,6774.0,50.0,45-59,0,Female,34.159779614325075,Obese (>=30.0),True,False,False,False,False,True,False,10
+1901,16011.0,17.0,<30,1,Male,,,False,True,False,False,False,False,True,10
+1920,5576.0,88.0,75+,1,Male,19.979188345473464,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+1933,3173.0,40.0,30-44,1,Male,33.91003460207613,Obese (>=30.0),True,False,False,False,False,True,False,10
+1938,3986.0,57.0,45-59,1,Male,34.62682073092702,Obese (>=30.0),True,False,False,False,False,True,False,10
+1940,1496.0,76.0,75+,1,Male,20.956607495069033,Normal (18.5-24.9),False,False,True,True,False,False,True,10
+1944,318.0,78.0,75+,0,Female,24.099722991689752,Normal (18.5-24.9),False,True,True,False,False,False,True,10
+1946,20935.0,21.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+1950,3267.0,68.0,60-74,1,Male,22.151022507021082,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+1958,7843.0,76.0,75+,1,Male,25.59373706198954,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+1961,4735.0,74.0,60-74,1,Male,17.908855357415025,Underweight (<18.5),False,True,False,False,True,False,True,10
+1972,18236.0,42.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+1988,2660.0,20.0,<30,1,Male,16.979591836734695,Underweight (<18.5),True,False,False,False,False,True,False,10
+1993,7593.0,73.0,60-74,0,Female,21.62964876033058,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+1994,15633.0,44.0,30-44,0,Female,28.721121070571897,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+1998,318.0,78.0,75+,0,Female,24.099722991689752,Normal (18.5-24.9),False,True,True,True,False,False,True,10
+2019,4098.0,300.0,,0,Female,17.968749999999996,Underweight (<18.5),False,True,False,True,False,False,True,10
+2039,307.0,59.0,45-59,1,Male,25.64891761567662,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+2045,19860.0,25.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+2050,307.0,59.0,45-59,1,Male,25.64891761567662,Overweight (25.0-29.9),False,True,True,False,False,False,True,10
+2055,5056.0,70.0,60-74,1,Male,20.41522491349481,Normal (18.5-24.9),False,True,True,False,False,False,True,10
+2064,307.0,59.0,45-59,1,Male,25.64891761567662,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+2083,5861.0,44.0,30-44,1,Male,22.321428571428577,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+2101,2726.0,64.0,60-74,1,Male,27.688778133776353,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+2103,2544.0,300.0,,1,Male,21.096190514828187,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+2104,3306.0,51.0,45-59,1,Male,39.06249999999999,Obese (>=30.0),False,True,True,False,True,False,True,10
+2110,3131.0,79.0,75+,1,Male,29.333333333333332,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+2119,4448.0,69.0,60-74,1,Male,21.218317194552675,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+2144,2628.0,50.0,45-59,1,Male,19.031141868512112,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+2146,5629.0,68.0,60-74,0,Female,23.148148148148145,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+2151,10266.0,71.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+2153,20353.0,88.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+2158,21397.0,72.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+2160,15956.0,300.0,,0,Female,,,False,False,True,False,False,False,True,10
+2170,19360.0,76.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+2180,14400.0,57.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+2192,12208.0,31.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+2193,12208.0,31.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+2203,7921.0,58.0,45-59,1,Male,23.87543252595156,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+2210,2760.0,44.0,30-44,1,Male,30.48337930033387,Obese (>=30.0),False,False,True,False,False,False,True,10
+2213,7283.0,58.0,45-59,0,Female,25.402816083611555,Overweight (25.0-29.9),False,False,True,False,True,False,True,10
+2221,6504.0,70.0,60-74,1,Male,22.832879346258608,Normal (18.5-24.9),False,True,True,False,False,False,True,10
+2224,6810.0,56.0,45-59,1,Male,20.429418362441915,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+2226,7071.0,56.0,45-59,1,Male,41.01562499999999,Obese (>=30.0),True,False,False,False,False,True,False,10
+2235,951.0,78.0,75+,1,Male,28.0,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+2238,1735.0,60.0,60-74,0,Female,25.142857142857142,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+2252,651.0,87.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+2267,18672.0,23.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+2270,1990.0,26.0,<30,1,Male,19.198960302457465,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+2277,3450.0,59.0,45-59,0,Female,36.06484235574064,Obese (>=30.0),True,False,False,False,False,True,False,10
+2279,4588.0,55.0,45-59,1,Male,21.410944984758313,Normal (18.5-24.9),False,False,True,True,False,False,True,10
+2281,12043.0,77.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+2282,5991.0,55.0,45-59,0,Female,27.732299776136855,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+2285,2208.0,77.0,75+,0,Female,26.42356982428326,Overweight (25.0-29.9),False,False,False,True,False,False,True,10
+2293,4321.0,300.0,,1,Male,24.034609838166958,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+2302,586.0,76.0,75+,1,Male,18.79618949976505,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+2317,2689.0,75.0,75+,1,Male,20.82999519307803,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+2322,586.0,76.0,75+,1,Male,18.79618949976505,Normal (18.5-24.9),False,True,True,False,True,False,True,10
+2324,13883.0,69.0,60-74,0,Female,,,False,True,False,True,True,False,True,10
+2341,14475.0,35.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+2345,11065.0,46.0,45-59,1,Male,,,False,True,False,True,False,False,True,10
+2355,19188.0,41.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+2368,15335.0,18.0,<30,1,Male,,,True,False,False,True,False,False,False,10
+2369,12547.0,58.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+2370,13793.0,40.0,30-44,0,Female,,,False,False,False,True,False,False,True,10
+2375,17107.0,20.0,<30,0,Female,,,False,False,False,True,False,False,True,10
+2379,14184.0,62.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+2381,19457.0,27.0,<30,0,Female,,,False,False,True,False,False,False,True,10
+2386,10088.0,64.0,60-74,0,Female,26.729927495071667,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+2387,15397.0,48.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+2390,20707.0,67.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+2403,11393.0,31.0,30-44,0,Female,,,False,False,True,False,False,False,True,10
+2409,19202.0,85.0,75+,0,Female,,,False,False,False,True,True,False,True,10
+2416,9391.0,22.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+2417,21131.0,78.0,75+,1,Male,,,False,False,False,False,True,False,True,10
+2419,10510.0,37.0,30-44,0,Female,,,False,False,False,True,False,False,True,10
+2422,15635.0,73.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+2427,16319.0,32.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+2432,18899.0,19.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+2433,21554.0,43.0,30-44,1,Male,,,False,False,False,True,False,False,True,10
+2449,14511.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+2455,7416.0,76.0,75+,1,Male,24.088223117166624,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+2473,4913.0,63.0,60-74,0,Female,,,False,False,False,False,True,False,True,10
+2476,10510.0,38.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+2492,6283.0,80.0,75+,1,Male,21.513858510523864,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+2507,19468.0,62.0,60-74,0,Female,24.725182932941294,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+2549,21158.0,77.0,75+,0,Female,,,False,True,True,False,False,False,True,10
+2550,3259.0,36.0,30-44,0,Female,26.44628099173554,Overweight (25.0-29.9),True,False,False,True,False,False,False,10
+2551,3387.0,71.0,60-74,1,Male,24.801587301587304,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+2556,21158.0,77.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+2560,14976.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+2561,15583.0,62.0,60-74,1,Male,24.801587301587304,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+2565,8977.0,44.0,30-44,0,Female,,,False,False,True,False,True,False,True,10
+2569,17603.0,65.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+2579,17038.0,57.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+2587,19654.0,68.0,60-74,1,Male,,,False,False,False,False,False,False,False,10
+2592,19654.0,68.0,60-74,1,Male,,,False,False,False,False,False,False,False,10
+2596,20190.0,43.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+2598,13358.0,71.0,60-74,0,Female,,,False,True,True,False,False,False,True,10
+2602,16718.0,88.0,75+,1,Male,,,False,False,True,False,True,False,True,10
+2605,19670.0,77.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+2606,13485.0,74.0,60-74,0,Female,24.453568409612362,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+2626,13026.0,81.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+2627,6589.0,45.0,45-59,0,Female,25.24933720489837,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+2638,12184.0,29.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+2649,11117.0,39.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+2693,2087.0,67.0,60-74,1,Male,26.502116213757365,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+2694,18045.0,46.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+2722,2425.0,88.0,75+,0,Female,21.329639889196677,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+2734,3111.0,70.0,60-74,1,Male,27.141582391433676,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+2736,11305.0,58.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+2764,15125.0,62.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+2767,16877.0,26.0,<30,0,Female,28.40550435551067,Overweight (25.0-29.9),True,False,False,True,False,False,False,10
+2776,11700.0,72.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+2779,5399.0,49.0,45-59,0,Female,26.234567901234566,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+2785,1661.0,72.0,60-74,1,Male,29.687499999999993,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+2786,14511.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+2789,6368.0,65.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+2791,5062.0,55.0,45-59,1,Male,29.687499999999993,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+2802,4602.0,75.0,75+,0,Female,26.573129251700685,Overweight (25.0-29.9),False,True,True,False,True,False,True,10
+2813,17738.0,23.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+2819,3839.0,66.0,60-74,1,Male,40.582681874492714,Obese (>=30.0),True,False,False,False,False,True,False,10
+2830,15236.0,35.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+2839,11958.0,30.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+2848,16463.0,44.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+2854,4764.0,70.0,60-74,1,Male,36.35734072022161,Obese (>=30.0),True,False,False,False,False,True,False,10
+2865,13029.0,68.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+2867,11544.0,55.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+2871,17370.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+2905,9028.0,52.0,45-59,0,Female,,,True,False,False,True,False,False,False,10
+2909,20468.0,48.0,45-59,1,Male,,,True,False,False,True,False,False,False,10
+2910,9849.0,84.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+2913,16279.0,62.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+2920,14943.0,64.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+2921,17915.0,79.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+2922,13701.0,64.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+2928,13098.0,38.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+2929,9414.0,45.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+2935,19755.0,25.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+2938,13131.0,55.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+2939,20386.0,71.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+2941,8937.0,51.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+2942,10867.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+2963,14190.0,20.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+2965,21328.0,61.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+2987,7011.0,19.0,<30,1,Male,23.051754907792983,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3009,3399.0,62.0,60-74,1,Male,27.915518824609737,Overweight (25.0-29.9),False,True,True,False,False,False,True,10
+3022,3635.0,75.0,75+,1,Male,23.140495867768596,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3027,15767.0,32.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+3033,20877.0,57.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+3035,6841.0,70.0,60-74,1,Male,24.46460160337235,Normal (18.5-24.9),True,False,False,True,False,False,False,10
+3043,17136.0,36.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+3052,20308.0,49.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+3060,2251.0,67.0,60-74,1,Male,22.939750692520775,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3073,6270.0,74.0,60-74,1,Male,25.099501595611173,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+3078,12313.0,51.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+3092,1366.0,44.0,30-44,0,Female,31.48148148148148,Obese (>=30.0),False,False,False,False,True,False,True,10
+3103,2961.0,78.0,75+,1,Male,18.73278236914601,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3108,6121.0,62.0,60-74,0,Female,32.4100370877744,Obese (>=30.0),True,False,False,False,False,True,False,10
+3112,2686.0,56.0,45-59,0,Female,30.273711806747606,Obese (>=30.0),True,False,False,False,False,True,False,10
+3122,1170.0,77.0,75+,0,Female,23.56663223140496,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+3128,18187.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+3148,14943.0,64.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+3159,1568.0,74.0,60-74,1,Male,27.09925100681245,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+3164,1674.0,45.0,45-59,0,Female,23.529411764705884,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3165,6323.0,36.0,30-44,1,Male,20.703124999999996,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3174,12856.0,27.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+3201,5902.0,66.0,60-74,0,Female,21.773842357381334,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+3208,14560.0,79.0,75+,1,Male,,,False,True,True,False,False,False,True,10
+3215,2780.0,80.0,75+,1,Male,,,False,False,True,False,True,False,True,10
+3220,7267.0,73.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+3235,7294.0,70.0,60-74,1,Male,22.506925207756233,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3241,20550.0,75.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+3246,1597.0,87.0,75+,1,Male,24.31412396574249,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+3248,12493.0,34.0,30-44,0,Female,,,True,False,False,True,False,False,False,10
+3272,4917.0,83.0,75+,1,Male,21.928862769176792,Normal (18.5-24.9),False,True,True,False,False,False,True,10
+3275,6135.0,80.0,75+,0,Female,27.239224483255885,Overweight (25.0-29.9),False,True,True,True,True,False,True,10
+3281,3324.0,62.0,60-74,0,Female,24.989587671803417,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+3282,3659.0,77.0,75+,1,Male,24.67105263157895,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+3299,1020.0,70.0,60-74,0,Female,26.42356982428326,Overweight (25.0-29.9),True,False,False,True,False,False,False,10
+3315,2895.0,79.0,75+,0,Female,25.61728395061728,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+3317,3217.0,77.0,75+,0,Female,23.661438615467823,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+3320,4763.0,86.0,75+,1,Male,20.936639118457304,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3326,733.0,69.0,60-74,1,Male,24.859073561850078,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+3336,9211.0,78.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+3342,3016.0,49.0,45-59,1,Male,28.19692120103642,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+3350,20605.0,22.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+3356,14447.0,32.0,30-44,0,Female,,,False,False,False,True,False,False,True,10
+3363,10575.0,40.0,30-44,0,Female,,,False,False,True,False,False,False,True,10
+3371,10575.0,40.0,30-44,0,Female,,,False,False,False,False,True,False,True,10
+3384,4889.0,54.0,45-59,0,Female,20.902385858042937,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3406,6682.0,54.0,45-59,1,Male,36.13945578231293,Obese (>=30.0),True,False,False,False,False,True,False,10
+3414,7118.0,65.0,60-74,1,Male,32.39390994493036,Obese (>=30.0),True,False,False,False,False,True,False,10
+3435,10188.0,65.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+3452,4923.0,67.0,60-74,0,Female,26.29757785467128,Overweight (25.0-29.9),False,False,False,True,False,False,True,10
+3454,11760.0,64.0,60-74,0,Female,,,False,True,True,False,True,False,True,10
+3479,16121.0,300.0,,1,Male,,,False,False,False,True,False,False,True,10
+3484,16121.0,300.0,,1,Male,,,False,False,True,True,False,False,True,10
+3486,5946.0,58.0,45-59,0,Female,33.6592970521542,Obese (>=30.0),True,False,False,True,True,False,False,10
+3487,1036.0,50.0,45-59,0,Female,25.61728395061728,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+3497,21068.0,42.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+3507,1960.0,72.0,60-74,0,Female,21.564544913741823,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3508,5670.0,73.0,60-74,1,Male,21.50188648626719,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+3515,2345.0,65.0,60-74,1,Male,36.289737262302225,Obese (>=30.0),True,False,False,False,False,True,False,10
+3521,7493.0,34.0,30-44,1,Male,21.79930795847751,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3522,1845.0,54.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+3537,4787.0,19.0,<30,0,Female,18.818924310286427,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3544,19665.0,84.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+3558,20283.0,66.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+3559,20967.0,55.0,45-59,0,Female,,,False,True,False,True,False,False,True,10
+3568,9001.0,77.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+3579,16625.0,58.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+3582,18551.0,45.0,45-59,0,Female,,,False,True,False,True,False,False,True,10
+3585,17982.0,34.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+3590,17915.0,80.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+3600,16869.0,60.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+3603,19762.0,68.0,60-74,1,Male,,,False,False,False,False,True,False,True,10
+3606,14506.0,55.0,45-59,1,Male,,,False,True,False,False,True,False,True,10
+3610,18375.0,47.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+3612,19444.0,65.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+3613,20724.0,73.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+3615,20386.0,71.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+3618,12205.0,44.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+3625,11588.0,61.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+3629,9001.0,77.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+3632,15716.0,64.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+3634,11588.0,61.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+3635,18552.0,46.0,45-59,1,Male,,,True,False,False,True,False,False,False,10
+3641,18809.0,18.0,<30,0,Female,,,False,False,False,True,False,False,True,10
+3652,8819.0,39.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+3657,8563.0,72.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+3660,14987.0,18.0,<30,0,Female,,,False,False,False,False,True,False,True,10
+3665,16846.0,24.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+3669,19050.0,43.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+3688,19890.0,49.0,45-59,0,Female,,,False,False,False,True,True,False,True,10
+3689,18460.0,71.0,60-74,1,Male,,,False,True,True,False,False,False,True,10
+3692,18861.0,84.0,75+,0,Female,,,False,True,True,False,False,False,True,10
+3696,15437.0,60.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+3699,17339.0,76.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+3702,16830.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+3704,11417.0,44.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+3708,7939.0,78.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+3712,12929.0,66.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+3723,8287.0,70.0,60-74,1,Male,,,False,False,False,False,False,False,False,10
+3740,11717.0,23.0,<30,0,Female,,,True,False,False,True,False,False,False,10
+3755,7055.0,71.0,60-74,0,Female,29.06122448979592,Overweight (25.0-29.9),False,True,False,True,False,False,True,10
+3756,7478.0,43.0,30-44,1,Male,23.225431847873423,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3785,12443.0,64.0,60-74,0,Female,24.691358024691358,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+3791,13759.0,47.0,45-59,0,Female,,,False,False,False,True,False,False,True,10
+3793,16721.0,64.0,60-74,0,Female,,,False,False,False,False,False,False,False,10
+3805,1889.0,73.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+3827,15293.0,300.0,,0,Female,,,False,True,True,True,True,False,True,10
+3842,12477.0,61.0,60-74,0,Female,,,False,False,True,False,True,False,True,10
+3855,11055.0,81.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+3863,18845.0,72.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+3867,20053.0,80.0,75+,1,Male,,,False,False,True,False,True,False,True,10
+3869,20053.0,80.0,75+,1,Male,,,False,False,True,False,True,False,True,10
+3872,21713.0,21.0,<30,1,Male,,,True,False,False,True,False,False,False,10
+3875,12565.0,36.0,30-44,0,Female,,,False,True,False,False,False,False,True,10
+3878,16932.0,66.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+3892,13309.0,24.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+3895,16715.0,77.0,75+,1,Male,,,False,False,True,False,True,False,True,10
+3904,19462.0,55.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+3908,19462.0,55.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+3909,19326.0,30.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+3910,20260.0,71.0,60-74,0,Female,,,False,True,True,False,True,False,True,10
+3913,19462.0,55.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+3914,19462.0,55.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+3918,6737.0,27.0,<30,0,Female,29.585798816568044,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+3923,3107.0,63.0,60-74,1,Male,23.233456176894723,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3925,20227.0,24.0,<30,0,Female,,,False,False,False,True,True,False,True,10
+3926,18045.0,47.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+3937,19434.0,32.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+3947,17456.0,70.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+3948,12209.0,72.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+3949,6188.0,71.0,60-74,0,Female,25.25951557093426,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+3967,17761.0,50.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+3984,894.0,25.0,<30,1,Male,21.612811791383223,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3986,5434.0,45.0,45-59,1,Male,20.811654526534856,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+3990,6017.0,76.0,75+,0,Female,,,False,False,False,False,False,False,False,10
+4016,3457.0,68.0,60-74,1,Male,29.77777777777778,Overweight (25.0-29.9),False,False,False,True,False,False,True,10
+4025,648.0,40.0,30-44,1,Male,21.227887617065555,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+4059,9872.0,37.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+4066,21465.0,57.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+4070,6960.0,67.0,60-74,0,Female,20.515086478979924,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+4072,4474.0,81.0,75+,1,Male,16.43655489809336,Underweight (<18.5),False,True,True,False,False,False,True,10
+4079,4492.0,69.0,60-74,0,Female,31.37798916633637,Obese (>=30.0),True,False,False,False,False,True,False,10
+4090,648.0,40.0,30-44,1,Male,21.227887617065555,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+4097,648.0,40.0,30-44,1,Male,21.227887617065555,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+4103,648.0,40.0,30-44,1,Male,21.227887617065555,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+4110,648.0,40.0,30-44,1,Male,21.227887617065555,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+4123,3342.0,70.0,60-74,1,Male,29.744199881023206,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+4137,5040.0,54.0,45-59,1,Male,37.87721123829344,Obese (>=30.0),False,True,False,False,False,False,True,10
+4149,5394.0,72.0,60-74,1,Male,29.721079103795148,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+4153,20939.0,73.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+4167,21197.0,66.0,60-74,1,Male,,,True,False,False,True,True,False,False,10
+4175,18463.0,87.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+4177,8358.0,70.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+4203,14374.0,86.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+4220,16204.0,58.0,45-59,1,Male,,,False,False,False,True,False,False,True,10
+4224,9065.0,65.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+4225,11939.0,55.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+4226,20424.0,54.0,45-59,0,Female,,,False,False,False,True,False,False,True,10
+4229,21768.0,78.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+4230,21768.0,78.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+4235,10030.0,23.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+4238,10949.0,55.0,45-59,0,Female,,,False,False,False,True,False,False,True,10
+4239,9886.0,43.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+4245,17491.0,63.0,60-74,0,Female,,,True,False,False,True,False,False,False,10
+4254,20030.0,70.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+4257,10071.0,67.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+4261,14976.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+4266,8493.0,64.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+4269,11845.0,67.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+4278,3800.0,70.0,60-74,0,Female,24.221453287197235,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+4295,11001.0,22.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+4329,5920.0,83.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+4335,20692.0,68.0,60-74,0,Female,,,False,False,True,False,True,False,True,10
+4336,806.0,57.0,45-59,0,Female,26.42356982428326,Overweight (25.0-29.9),False,False,True,True,True,False,True,10
+4342,6142.0,66.0,60-74,0,Female,27.717685235262305,Overweight (25.0-29.9),True,False,True,False,False,False,False,10
+4354,18056.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+4362,5313.0,78.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+4363,10867.0,51.0,45-59,0,Female,,,False,False,False,True,True,False,True,10
+4391,20939.0,73.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+4410,2647.0,67.0,60-74,0,Female,29.065743944636683,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+4414,8880.0,39.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+4417,8745.0,62.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+4432,510.0,68.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+4444,5256.0,57.0,45-59,0,Female,28.344671201814062,Overweight (25.0-29.9),False,False,False,True,False,False,True,10
+4448,14291.0,63.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+4458,877.0,54.0,45-59,0,Female,26.173832551310287,Overweight (25.0-29.9),False,False,False,False,True,False,True,10
+4476,19972.0,40.0,30-44,1,Male,,,False,False,True,False,False,False,True,10
+4501,15660.0,59.0,45-59,0,Female,,,False,False,True,False,False,False,True,10
+4506,19972.0,40.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+4508,9625.0,74.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+4518,316.0,69.0,60-74,1,Male,25.969529085872576,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+4542,14368.0,22.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+4546,5814.0,62.0,60-74,0,Female,15.780835753061481,Underweight (<18.5),False,False,False,True,True,False,True,10
+4547,316.0,69.0,60-74,1,Male,25.969529085872576,Overweight (25.0-29.9),False,False,False,False,True,False,True,10
+4556,1186.0,78.0,75+,1,Male,24.218749999999996,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+4560,510.0,68.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+4565,16987.0,38.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+4576,430.0,81.0,75+,0,Female,25.826446280991735,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+4602,6066.0,53.0,45-59,1,Male,31.22130394857668,Obese (>=30.0),False,False,False,True,True,False,True,10
+4609,7750.0,67.0,60-74,0,Female,28.926223520818112,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+4614,539.0,88.0,75+,1,Male,22.34778208804183,Normal (18.5-24.9),False,True,True,False,True,False,True,10
+4615,430.0,81.0,75+,0,Female,25.826446280991735,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+4618,1890.0,74.0,60-74,1,Male,24.609374999999996,Normal (18.5-24.9),False,True,True,True,False,False,True,10
+4619,2622.0,62.0,60-74,0,Female,24.258674071946118,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+4646,4570.0,75.0,75+,0,Female,24.609733700642796,Normal (18.5-24.9),False,True,True,False,False,False,True,10
+4656,539.0,88.0,75+,1,Male,22.34778208804183,Normal (18.5-24.9),False,True,True,False,True,False,True,10
+4672,2542.0,69.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+4676,5178.0,84.0,75+,1,Male,19.48696145124717,Normal (18.5-24.9),False,False,True,True,False,False,True,10
+4687,3345.0,58.0,45-59,1,Male,37.18024985127901,Obese (>=30.0),False,False,True,False,False,False,True,10
+4704,11334.0,73.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+4719,18268.0,43.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+4747,5126.0,36.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+4749,4394.0,77.0,75+,0,Female,20.936639118457304,Normal (18.5-24.9),False,True,True,False,True,False,True,10
+4755,13893.0,43.0,30-44,0,Female,31.741788900397605,Obese (>=30.0),False,True,True,False,False,False,True,10
+4758,6204.0,80.0,75+,0,Female,22.321428571428577,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+4769,6178.0,81.0,75+,0,Female,16.45600644235146,Underweight (<18.5),False,False,True,False,False,False,True,10
+4771,6657.0,72.0,60-74,0,Female,23.291229956104985,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+4785,9903.0,88.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+4786,854.0,55.0,45-59,0,Female,33.87406375851557,Obese (>=30.0),True,False,False,False,False,True,False,10
+4797,9903.0,88.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+4805,12493.0,36.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+4809,9903.0,88.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+4820,10499.0,50.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+4822,15960.0,38.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+4825,19477.0,45.0,45-59,0,Female,,,False,False,False,True,False,False,True,10
+4836,10399.0,56.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+4866,20895.0,74.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+4873,9553.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+4880,16127.0,57.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+4893,5052.0,55.0,45-59,0,Female,22.47120876377142,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+4900,5470.0,67.0,60-74,1,Male,18.426534209261334,Underweight (<18.5),True,False,False,False,False,True,False,10
+4922,8287.0,71.0,60-74,1,Male,,,False,False,False,False,False,False,False,10
+4926,18168.0,74.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+4945,6695.0,37.0,30-44,0,Female,24.543462381300216,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+4951,6726.0,68.0,60-74,1,Male,30.844415958980928,Obese (>=30.0),True,False,False,False,False,True,False,10
+4960,7598.0,47.0,45-59,1,Male,27.77442337881898,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+4979,4341.0,81.0,75+,1,Male,30.824829931972793,Obese (>=30.0),True,False,True,False,False,False,False,10
+4995,20822.0,84.0,75+,1,Male,,,False,False,True,True,True,False,True,10
+5000,7207.0,64.0,60-74,0,Female,24.653739612188367,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+5029,17619.0,78.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+5054,3579.0,66.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+5067,16979.0,38.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+5087,4214.0,69.0,60-74,1,Male,21.338210638622158,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+5099,5732.0,49.0,45-59,1,Male,25.390624999999996,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+5117,8425.0,67.0,60-74,0,Female,,,True,False,False,True,False,False,False,10
+5122,17141.0,54.0,45-59,0,Female,,,False,False,True,False,False,False,True,10
+5126,16392.0,45.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+5147,9001.0,78.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+5151,14247.0,46.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+5154,9001.0,78.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+5159,9001.0,78.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+5163,19116.0,71.0,60-74,0,Female,,,False,True,True,True,True,False,True,10
+5170,21124.0,33.0,30-44,0,Female,,,False,False,False,True,False,False,True,10
+5172,13650.0,64.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+5182,11132.0,84.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+5185,18055.0,70.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+5212,8809.0,56.0,45-59,0,Female,,,False,False,False,True,False,False,True,10
+5217,18672.0,25.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+5219,18551.0,46.0,45-59,0,Female,,,False,True,False,True,False,False,True,10
+5251,14952.0,75.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+5252,11132.0,84.0,75+,0,Female,,,False,False,False,False,False,False,False,10
+5257,14952.0,75.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+5269,21651.0,37.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+5275,21632.0,62.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+5276,13847.0,73.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+5278,11132.0,84.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+5281,14040.0,51.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+5289,14952.0,75.0,75+,1,Male,,,False,False,True,False,True,False,True,10
+5298,9019.0,29.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+5299,18521.0,66.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+5304,11143.0,49.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+5316,14208.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+5331,19996.0,71.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+5336,14803.0,64.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+5337,15306.0,63.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+5338,11960.0,86.0,75+,0,Female,,,False,False,False,True,True,False,True,10
+5343,16426.0,56.0,45-59,0,Female,,,False,True,False,True,True,False,True,10
+5351,16526.0,79.0,75+,0,Female,,,False,True,True,False,False,False,True,10
+5360,20205.0,67.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+5370,12862.0,18.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+5373,20433.0,54.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+5383,8881.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+5384,17294.0,53.0,45-59,0,Female,,,False,False,True,False,False,False,True,10
+5386,15509.0,67.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+5395,8276.0,58.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+5413,16526.0,79.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+5428,21291.0,35.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+5452,19327.0,51.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+5465,17375.0,68.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+5479,14606.0,42.0,30-44,1,Male,,,False,True,False,True,False,False,True,10
+5501,19357.0,84.0,75+,0,Female,,,False,True,True,False,False,False,True,10
+5519,9168.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+5530,13734.0,55.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+5544,21048.0,83.0,75+,1,Male,,,False,False,False,False,False,False,False,10
+5566,16392.0,45.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+5567,9751.0,72.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+5572,19996.0,71.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+5600,18634.0,40.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+5605,20469.0,55.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+5606,11736.0,62.0,60-74,1,Male,,,False,False,True,True,False,False,True,10
+5628,9751.0,72.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+5635,9751.0,72.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+5725,532.0,59.0,45-59,0,Female,23.529411764705884,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+5737,6208.0,41.0,30-44,0,Female,30.24691358024691,Obese (>=30.0),True,False,False,False,False,True,False,10
+5738,5077.0,61.0,60-74,0,Female,30.116213151927443,Obese (>=30.0),True,False,False,True,False,False,False,10
+5743,532.0,59.0,45-59,0,Female,23.529411764705884,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+5753,10094.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+5771,16197.0,35.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+5777,16862.0,85.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+5784,17693.0,61.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+5804,8809.0,56.0,45-59,0,Female,,,False,False,False,True,True,False,True,10
+5806,13082.0,83.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+5810,17184.0,70.0,60-74,0,Female,,,False,True,True,False,True,False,True,10
+5816,21068.0,43.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+5824,7531.0,57.0,45-59,0,Female,30.119375573921033,Obese (>=30.0),True,False,False,False,False,True,False,10
+5826,17804.0,42.0,30-44,0,Female,,,False,True,False,True,False,False,True,10
+5830,4565.0,35.0,30-44,0,Female,20.679012345679013,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+5831,20048.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+5835,7502.0,49.0,45-59,0,Female,22.49134948096886,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+5837,9716.0,36.0,30-44,1,Male,30.103806228373706,Obese (>=30.0),True,False,False,False,False,True,False,10
+5841,10624.0,73.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+5855,4755.0,21.0,<30,1,Male,19.1107527844964,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+5856,7760.0,74.0,60-74,0,Female,32.561885088057146,Obese (>=30.0),False,True,False,True,False,False,True,10
+5868,10623.0,63.0,60-74,1,Male,,,False,False,True,False,True,False,True,10
+5873,10624.0,73.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+5881,21164.0,58.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+5885,20115.0,64.0,60-74,1,Male,,,False,True,True,False,False,False,True,10
+5911,15294.0,65.0,60-74,0,Female,,,False,False,False,False,True,False,True,10
+5914,15439.0,30.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+5915,15480.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+5916,18842.0,43.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+5918,18333.0,76.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+5924,20316.0,34.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+5946,20739.0,56.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+5947,872.0,55.0,45-59,0,Female,27.180899908172638,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+5951,2347.0,72.0,60-74,0,Female,26.29757785467128,Overweight (25.0-29.9),False,False,False,True,True,False,True,10
+5953,8516.0,38.0,30-44,1,Male,,,False,False,False,True,False,False,True,10
+5973,10414.0,72.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+5975,14975.0,31.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+5977,20632.0,61.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+5992,785.0,30.0,30-44,1,Male,20.576131687242793,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+6000,5028.0,59.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+6004,2482.0,28.0,<30,0,Female,24.258674071946118,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+6042,20739.0,56.0,45-59,1,Male,,,False,True,False,True,False,False,True,10
+6046,3465.0,62.0,60-74,0,Female,29.387755102040817,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+6047,5293.0,61.0,60-74,0,Female,42.711937716262966,Obese (>=30.0),True,False,False,False,False,True,False,10
+6050,859.0,55.0,45-59,1,Male,22.321428571428577,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+6056,935.0,88.0,75+,1,Male,24.67105263157895,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+6075,7195.0,76.0,75+,1,Male,26.83864765261977,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+6087,18442.0,51.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+6096,579.0,66.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+6098,6399.0,55.0,45-59,0,Female,28.39506172839506,Overweight (25.0-29.9),False,False,True,False,True,False,True,10
+6103,5886.0,51.0,45-59,0,Female,27.18163008641324,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+6126,579.0,66.0,60-74,1,Male,,,False,True,True,True,False,False,True,10
+6131,19964.0,23.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+6132,5651.0,59.0,45-59,0,Female,35.91836734693877,Obese (>=30.0),False,False,True,False,False,False,True,10
+6141,1933.0,72.0,60-74,0,Female,22.837370242214536,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+6151,12695.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+6154,7228.0,69.0,60-74,1,Male,22.582709172343712,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+6174,19919.0,71.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+6180,5025.0,62.0,60-74,1,Male,23.875114784205696,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+6186,6347.0,57.0,45-59,1,Male,23.836734693877553,Normal (18.5-24.9),False,True,True,False,False,False,True,10
+6188,10619.0,22.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+6189,14094.0,73.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+6190,13221.0,84.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+6192,14698.0,30.0,30-44,1,Male,,,False,False,True,False,False,False,True,10
+6200,11258.0,43.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+6201,13221.0,84.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+6207,7968.0,31.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+6208,7968.0,31.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+6210,13221.0,84.0,75+,1,Male,,,False,True,True,False,False,False,True,10
+6211,17774.0,72.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+6222,8204.0,46.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+6224,17225.0,300.0,,1,Male,,,False,True,False,False,False,False,True,10
+6227,15999.0,66.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+6229,17805.0,84.0,75+,0,Female,,,False,True,True,False,True,False,True,10
+6230,20683.0,85.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+6231,10187.0,47.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+6235,16111.0,60.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+6239,17799.0,56.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+6251,10300.0,87.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+6262,21143.0,48.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+6265,11834.0,55.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+6270,9872.0,38.0,30-44,0,Female,,,False,False,True,False,False,False,True,10
+6283,17680.0,55.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+6284,14287.0,38.0,30-44,0,Female,,,False,False,False,True,False,False,True,10
+6295,406.0,52.0,45-59,0,Female,30.189590629151066,Obese (>=30.0),True,False,False,False,False,True,False,10
+6304,308.0,71.0,60-74,1,Male,22.265624999999996,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+6305,13962.0,76.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+6312,11448.0,21.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+6313,5039.0,300.0,,1,Male,20.690494543389182,Normal (18.5-24.9),False,True,True,True,False,False,True,10
+6314,13824.0,82.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+6337,12853.0,57.0,45-59,0,Female,,,False,True,True,False,True,False,True,10
+6341,6614.0,67.0,60-74,0,Female,31.020408163265305,Obese (>=30.0),True,False,False,False,False,True,False,10
+6350,7308.0,72.0,60-74,1,Male,17.31301939058172,Underweight (<18.5),False,True,True,False,False,False,True,10
+6352,6722.0,79.0,75+,1,Male,24.221453287197235,Normal (18.5-24.9),False,False,True,True,False,False,True,10
+6353,308.0,71.0,60-74,1,Male,22.265624999999996,Normal (18.5-24.9),False,True,True,False,True,False,True,10
+6355,13703.0,80.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+6358,1901.0,77.0,75+,1,Male,27.343749999999996,Overweight (25.0-29.9),True,False,False,True,False,False,False,10
+6375,4014.0,51.0,45-59,1,Male,28.841531805800347,Overweight (25.0-29.9),False,False,False,True,False,False,True,10
+6380,7870.0,87.0,75+,1,Male,,,False,False,False,False,True,False,True,10
+6381,20219.0,33.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+6404,13703.0,80.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+6427,2245.0,84.0,75+,1,Male,20.70081674131507,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+6428,19633.0,69.0,60-74,1,Male,,,False,False,False,False,True,False,True,10
+6437,5211.0,67.0,60-74,1,Male,25.06574621959237,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+6465,8179.0,58.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+6471,4751.0,78.0,75+,1,Male,24.238227146814403,Normal (18.5-24.9),False,False,False,True,True,False,True,10
+6498,933.0,54.0,45-59,0,Female,25.661152034778407,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+6528,8179.0,58.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+6542,2825.0,77.0,75+,1,Male,26.026174895895306,Overweight (25.0-29.9),False,False,False,True,False,False,True,10
+6552,2538.0,87.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+6556,4292.0,53.0,45-59,0,Female,21.04981790236894,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+6562,5729.0,79.0,75+,1,Male,30.8174740484429,Obese (>=30.0),False,False,False,True,False,False,True,10
+6577,406.0,52.0,45-59,0,Female,30.189590629151066,Obese (>=30.0),True,False,False,False,False,True,False,10
+6579,7334.0,58.0,45-59,0,Female,29.752066115702483,Overweight (25.0-29.9),False,False,False,True,False,False,True,10
+6590,2180.0,77.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+6592,1586.0,88.0,75+,0,Female,23.437499999999996,Normal (18.5-24.9),False,False,True,True,False,False,True,10
+6625,4822.0,78.0,75+,1,Male,20.936639118457304,Normal (18.5-24.9),False,True,False,False,True,False,True,10
+6666,17805.0,84.0,75+,0,Female,,,False,True,True,False,True,False,True,10
+6670,5601.0,56.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+6672,20643.0,55.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+6683,14039.0,69.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+6728,15999.0,66.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+6735,2381.0,60.0,60-74,0,Female,25.393431120318084,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+6751,11767.0,80.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+6776,11613.0,84.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+6788,1487.0,77.0,75+,1,Male,28.515624999999993,Overweight (25.0-29.9),False,True,True,False,True,False,True,10
+6794,11613.0,84.0,75+,1,Male,,,False,True,False,False,True,False,True,10
+6796,19527.0,72.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+6817,11767.0,80.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+6852,8264.0,58.0,45-59,0,Female,,,False,True,True,True,False,False,True,10
+6902,8388.0,58.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+6903,17323.0,56.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+6911,13387.0,60.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+6912,19057.0,70.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+6924,14695.0,80.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+6925,10643.0,77.0,75+,1,Male,,,False,True,False,False,True,False,True,10
+6929,2765.0,70.0,60-74,0,Female,29.33741144159046,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+6951,7057.0,68.0,60-74,0,Female,20.522603769221874,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+6962,5910.0,300.0,,1,Male,20.444444444444443,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+6992,21667.0,52.0,45-59,0,Female,,,False,True,True,False,True,False,True,10
+7003,1399.0,85.0,75+,1,Male,17.263544536271812,Underweight (<18.5),False,True,True,True,False,False,True,10
+7007,17490.0,60.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+7016,17490.0,60.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+7022,15504.0,300.0,,1,Male,,,False,False,True,True,False,False,True,10
+7024,18366.0,58.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+7025,18514.0,63.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+7034,10555.0,56.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+7053,10498.0,77.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+7054,12900.0,75.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+7055,18366.0,58.0,45-59,1,Male,,,False,False,True,True,False,False,True,10
+7069,21082.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+7075,4597.0,84.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+7079,18366.0,58.0,45-59,1,Male,,,False,False,False,True,False,False,True,10
+7080,11293.0,74.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+7130,8684.0,45.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+7161,13321.0,75.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+7170,15774.0,58.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+7190,18705.0,53.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+7213,19966.0,41.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+7217,10773.0,72.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+7221,12081.0,300.0,,0,Female,,,False,False,False,False,False,False,False,10
+7243,18304.0,65.0,60-74,1,Male,,,False,False,True,False,True,False,True,10
+7258,20362.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+7323,21593.0,32.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+7328,12477.0,63.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+7348,15917.0,53.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+7354,9433.0,74.0,60-74,0,Female,,,False,False,False,False,True,False,True,10
+7363,18113.0,63.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+7374,19940.0,78.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+7376,14109.0,20.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+7414,12226.0,17.0,<30,0,Female,,,True,False,False,True,False,False,False,10
+7438,20683.0,86.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+7443,11898.0,65.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+7445,11898.0,65.0,60-74,0,Female,,,False,False,False,False,False,False,False,10
+7471,12853.0,57.0,45-59,0,Female,,,False,True,True,False,False,False,True,10
+7491,19800.0,19.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+7529,10643.0,77.0,75+,1,Male,,,False,True,True,False,True,False,True,10
+7530,11293.0,74.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+7534,15029.0,84.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+7543,11328.0,71.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+7560,21739.0,76.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+7561,16752.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+7597,12299.0,61.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+7598,9740.0,59.0,45-59,0,Female,,,False,False,True,True,True,False,True,10
+7619,15412.0,60.0,60-74,1,Male,,,False,False,True,True,True,False,True,10
+7621,20277.0,36.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+7644,14375.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+7661,16950.0,54.0,45-59,0,Female,,,False,True,False,True,True,False,True,10
+7668,10491.0,75.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+7670,12137.0,66.0,60-74,0,Female,,,False,False,False,False,True,False,True,10
+7684,6229.0,82.0,75+,1,Male,27.993022029291247,Overweight (25.0-29.9),False,False,False,False,True,False,True,10
+7692,6474.0,74.0,60-74,0,Female,26.92743764172336,Overweight (25.0-29.9),False,True,True,False,False,False,True,10
+7700,9740.0,59.0,45-59,0,Female,,,False,True,True,True,True,False,True,10
+7744,20954.0,73.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+7747,17406.0,49.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+7751,4521.0,300.0,,1,Male,22.582709172343712,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+7756,1709.0,60.0,60-74,1,Male,29.065926806711587,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+7769,21238.0,75.0,75+,0,Female,,,False,False,False,True,True,False,True,10
+7770,19418.0,19.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+7783,14850.0,55.0,45-59,0,Female,,,False,False,False,False,False,False,False,10
+7793,3920.0,66.0,60-74,0,Female,30.795847750865054,Obese (>=30.0),True,False,False,False,False,True,False,10
+7797,12404.0,69.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+7811,21238.0,75.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+7812,6111.0,82.0,75+,0,Female,23.87543252595156,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+7813,9740.0,59.0,45-59,0,Female,,,False,True,False,True,False,False,True,10
+7819,12121.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+7822,20727.0,68.0,60-74,1,Male,,,False,True,True,False,True,False,True,10
+7837,11456.0,61.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+7842,2609.0,62.0,60-74,1,Male,19.834710743801654,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+7848,10668.0,79.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+7861,19498.0,73.0,60-74,1,Male,,,False,True,True,False,True,False,True,10
+7865,10677.0,79.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+7873,11974.0,82.0,75+,1,Male,,,False,False,True,True,True,False,True,10
+7876,8152.0,66.0,60-74,1,Male,,,False,True,True,False,True,False,True,10
+7877,13777.0,57.0,45-59,0,Female,,,False,True,False,True,False,False,True,10
+7880,19101.0,42.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+7881,9740.0,59.0,45-59,0,Female,,,False,True,True,False,False,False,True,10
+7882,13678.0,69.0,60-74,0,Female,,,False,False,False,True,True,False,True,10
+7889,8189.0,74.0,60-74,1,Male,,,False,False,False,False,False,False,False,10
+7892,18257.0,51.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+7895,12734.0,61.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+7905,13536.0,31.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+7916,17216.0,79.0,75+,0,Female,,,False,False,False,False,True,False,True,10
+7919,12893.0,80.0,75+,1,Male,,,False,False,True,True,True,False,True,10
+7946,377.0,68.0,60-74,1,Male,17.578124999999996,Underweight (<18.5),False,False,True,True,False,False,True,10
+7950,17165.0,56.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+7951,6428.0,68.0,60-74,1,Male,37.84602076124567,Obese (>=30.0),False,False,True,False,False,False,True,10
+7961,377.0,68.0,60-74,1,Male,17.578124999999996,Underweight (<18.5),False,False,True,True,True,False,True,10
+7967,1787.0,66.0,60-74,1,Male,24.97398543184183,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+7990,3647.0,75.0,75+,0,Female,22.03856749311295,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+7998,3862.0,75.0,75+,1,Male,24.218749999999996,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+8000,17772.0,61.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+8032,9740.0,59.0,45-59,0,Female,,,False,True,True,False,False,False,True,10
+8036,12281.0,54.0,45-59,0,Female,,,False,False,True,False,False,False,True,10
+8041,3434.0,89.0,75+,0,Female,25.18107741059303,Overweight (25.0-29.9),False,True,False,True,False,False,True,10
+8062,5276.0,68.0,60-74,0,Female,26.122448979591837,Overweight (25.0-29.9),False,False,True,True,True,False,True,10
+8065,7761.0,63.0,60-74,1,Male,24.609374999999996,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+8076,3451.0,40.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+8083,20880.0,54.0,45-59,1,Male,,,False,False,False,False,True,False,True,10
+8114,6191.0,56.0,45-59,1,Male,25.390624999999996,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+8116,3446.0,52.0,45-59,0,Female,25.727555214006482,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+8121,2807.0,66.0,60-74,0,Female,24.772096710265558,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+8123,1984.0,73.0,60-74,1,Male,20.82999519307803,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+8126,14930.0,75.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+8130,1064.0,85.0,75+,0,Female,24.691358024691358,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+8133,9149.0,37.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+8136,1376.0,88.0,75+,1,Male,19.04432132963989,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+8138,10335.0,33.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+8139,8935.0,85.0,75+,0,Female,,,False,False,True,True,False,False,True,10
+8140,13965.0,59.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+8147,9681.0,53.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+8153,21170.0,53.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+8164,11541.0,43.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+8170,21414.0,47.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+8178,19410.0,77.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+8185,12672.0,63.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+8195,21683.0,49.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+8203,14750.0,51.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+8208,12834.0,58.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+8209,12281.0,55.0,45-59,0,Female,,,False,False,True,False,True,False,True,10
+8212,19410.0,77.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+8215,14026.0,71.0,60-74,1,Male,,,False,False,False,False,False,False,False,10
+8218,12375.0,78.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+8219,14026.0,71.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+8224,18378.0,17.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+8241,6808.0,85.0,75+,0,Female,23.18339100346021,Normal (18.5-24.9),False,True,True,False,True,False,True,10
+8242,20109.0,64.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+8244,19087.0,52.0,45-59,0,Female,,,False,False,False,True,True,False,True,10
+8246,21683.0,49.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+8254,12080.0,60.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+8256,11350.0,79.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+8259,7398.0,87.0,75+,1,Male,16.423650056080753,Underweight (<18.5),False,False,True,False,True,False,True,10
+8261,6022.0,58.0,45-59,0,Female,28.666129176744597,Overweight (25.0-29.9),True,False,False,True,False,False,False,10
+8263,17826.0,63.0,60-74,0,Female,,,False,False,False,False,False,False,False,10
+8277,11715.0,57.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+8278,3170.0,74.0,60-74,0,Female,22.30935640886966,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+8281,10982.0,50.0,45-59,0,Female,,,False,True,False,True,False,False,True,10
+8284,5287.0,72.0,60-74,1,Male,23.051754907792983,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+8344,2111.0,42.0,30-44,0,Female,35.15624999999999,Obese (>=30.0),False,True,False,False,False,False,True,10
+8406,15485.0,70.0,60-74,0,Female,,,False,True,True,True,True,False,True,10
+8410,6783.0,70.0,60-74,1,Male,20.820939916716245,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+8415,11737.0,69.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+8442,8487.0,82.0,75+,0,Female,,,False,True,True,False,False,False,True,10
+8446,15640.0,76.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+8450,536.0,67.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+8460,3699.0,77.0,75+,0,Female,25.5649539199596,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+8461,741.0,71.0,60-74,0,Female,29.76086271489094,Overweight (25.0-29.9),False,False,False,False,False,False,False,10
+8473,12926.0,54.0,45-59,0,Female,,,False,True,False,True,False,False,True,10
+8475,536.0,67.0,60-74,0,Female,,,False,False,True,False,True,False,True,10
+8482,17607.0,56.0,45-59,1,Male,,,False,False,False,True,False,False,True,10
+8492,17332.0,71.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+8496,9867.0,21.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+8501,536.0,67.0,60-74,0,Female,,,False,False,True,False,True,False,True,10
+8504,13937.0,68.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+8507,4193.0,32.0,30-44,1,Male,33.87406375851557,Obese (>=30.0),True,False,False,False,False,True,False,10
+8509,20651.0,79.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+8524,3181.0,86.0,75+,1,Male,23.06805074971165,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+8533,17332.0,71.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+8535,17906.0,49.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+8538,7344.0,30.0,30-44,0,Female,29.411764705882355,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+8541,7322.0,56.0,45-59,0,Female,27.173101615455817,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+8555,3020.0,70.0,60-74,0,Female,26.729927495071667,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+8591,19224.0,64.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+8609,9363.0,86.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+8622,967.0,56.0,45-59,1,Male,25.96454217209623,Overweight (25.0-29.9),False,False,False,True,False,False,True,10
+8625,5021.0,60.0,60-74,0,Female,32.557694149190844,Obese (>=30.0),False,False,True,False,False,False,True,10
+8632,11159.0,45.0,45-59,1,Male,,,False,False,False,True,False,False,True,10
+8645,10875.0,58.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+8663,801.0,40.0,30-44,0,Female,23.38868655818771,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+8680,7343.0,77.0,75+,0,Female,22.460034350640772,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+8688,2986.0,41.0,30-44,1,Male,27.639801313892,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+8704,3724.0,76.0,75+,0,Female,22.15910864205237,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+8712,4815.0,69.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+8727,7896.0,67.0,60-74,1,Male,24.221453287197235,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+8733,15548.0,70.0,60-74,1,Male,,,False,True,True,False,False,False,True,10
+8736,9151.0,81.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+8744,9642.0,87.0,75+,1,Male,,,False,False,True,True,True,False,True,10
+8765,10163.0,29.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+8772,5424.0,74.0,60-74,1,Male,21.453573713726524,Normal (18.5-24.9),False,True,False,False,True,False,True,10
+8774,10725.0,84.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+8777,1210.0,69.0,60-74,0,Female,23.335466144755166,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+8778,7431.0,69.0,60-74,1,Male,27.268005540166204,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+8795,18734.0,54.0,45-59,0,Female,,,False,False,True,False,False,False,True,10
+8808,9642.0,87.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+8813,10802.0,50.0,45-59,0,Female,,,False,False,True,True,False,False,True,10
+8815,21621.0,58.0,45-59,0,Female,,,True,False,False,True,False,False,False,10
+8833,8660.0,51.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+8834,21657.0,56.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+8844,13108.0,60.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+8853,18709.0,78.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+8860,13085.0,70.0,60-74,1,Male,,,False,True,True,True,True,False,True,10
+8864,16116.0,73.0,60-74,1,Male,,,False,False,True,False,True,False,True,10
+8872,9764.0,60.0,60-74,0,Female,,,False,False,False,False,False,False,False,10
+8873,7291.0,74.0,60-74,1,Male,19.562955254942764,Normal (18.5-24.9),False,True,False,False,True,False,True,10
+8880,7595.0,70.0,60-74,1,Male,24.221453287197235,Normal (18.5-24.9),False,False,False,True,True,False,True,10
+8902,8605.0,35.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+8916,1670.0,72.0,60-74,0,Female,18.612244897959183,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+8922,6953.0,49.0,45-59,1,Male,23.051754907792983,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+8963,8186.0,71.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+8981,10361.0,72.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+9002,4491.0,49.0,45-59,1,Male,36.73094582185492,Obese (>=30.0),True,False,False,False,False,True,False,10
+9010,8001.0,61.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+9021,17805.0,85.0,75+,0,Female,,,False,True,True,False,False,False,True,10
+9024,3307.0,75.0,75+,1,Male,22.265624999999996,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+9036,8001.0,61.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+9056,17620.0,44.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+9063,19578.0,41.0,30-44,1,Male,,,False,False,False,True,True,False,True,10
+9094,10331.0,70.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+9095,6848.0,78.0,75+,1,Male,22.985397512168742,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+9108,11385.0,83.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+9110,4136.0,78.0,75+,0,Female,22.024322512687924,Normal (18.5-24.9),False,False,False,True,True,False,True,10
+9115,7211.0,83.0,75+,1,Male,17.68978885166924,Underweight (<18.5),False,False,True,False,False,False,True,10
+9133,7152.0,56.0,45-59,1,Male,25.25951557093426,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+9144,13085.0,71.0,60-74,1,Male,,,False,True,False,True,False,False,True,10
+9164,18166.0,25.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+9167,9642.0,87.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+9174,11293.0,75.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+9176,13595.0,60.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+9178,18409.0,41.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+9180,18864.0,66.0,60-74,1,Male,,,False,True,True,False,True,False,True,10
+9183,20560.0,26.0,<30,0,Female,,,False,False,False,True,False,False,True,10
+9187,17591.0,46.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+9196,18168.0,77.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+9211,16015.0,64.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+9217,16015.0,64.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+9229,9043.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+9246,19200.0,44.0,30-44,1,Male,,,False,False,True,False,False,False,True,10
+9248,8707.0,51.0,45-59,0,Female,,,False,True,False,False,True,False,True,10
+9260,11832.0,29.0,<30,1,Male,,,False,False,True,False,False,False,True,10
+9265,16015.0,64.0,60-74,1,Male,,,False,True,False,True,False,False,True,10
+9272,9459.0,63.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+9282,18597.0,81.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+9286,14041.0,60.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+9299,12675.0,45.0,45-59,1,Male,,,False,False,False,False,True,False,True,10
+9301,16254.0,77.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+9303,10703.0,17.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+9306,16235.0,84.0,75+,1,Male,,,False,True,False,True,True,False,True,10
+9338,18444.0,44.0,30-44,1,Male,22.647376960519203,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+9346,17008.0,66.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+9353,18595.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+9366,16254.0,78.0,75+,0,Female,,,False,True,True,False,False,False,True,10
+9396,20756.0,36.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+9410,18397.0,59.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+9416,14826.0,82.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+9422,9986.0,68.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+9449,14581.0,39.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+9453,11137.0,43.0,30-44,0,Female,,,False,True,False,False,False,False,True,10
+9458,9963.0,57.0,45-59,0,Female,,,False,False,False,True,False,False,True,10
+9461,13216.0,62.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+9475,20915.0,53.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+9543,20966.0,78.0,75+,1,Male,,,False,True,True,True,False,False,True,10
+9557,16196.0,84.0,75+,0,Female,,,False,False,False,False,False,False,False,10
+9562,14721.0,300.0,,1,Male,,,False,False,False,True,False,False,True,10
+9570,18252.0,83.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+9582,14940.0,37.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+9583,18252.0,83.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+9589,17620.0,44.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+9613,16474.0,79.0,75+,1,Male,,,False,True,True,False,True,False,True,10
+9616,9756.0,60.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+9689,10740.0,21.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+9702,2890.0,56.0,45-59,0,Female,23.140495867768596,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+9730,1815.0,52.0,45-59,0,Female,31.249999999999993,Obese (>=30.0),False,False,True,False,False,False,True,10
+9732,6910.0,300.0,,1,Male,21.208448753462605,Normal (18.5-24.9),False,True,True,False,False,False,True,10
+9740,3642.0,59.0,45-59,0,Female,22.530864197530864,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+9744,6532.0,71.0,60-74,1,Male,19.94805976890361,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+9749,17595.0,62.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+9752,2336.0,50.0,45-59,1,Male,27.94214332675871,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+9753,14940.0,37.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+9756,21361.0,49.0,45-59,0,Female,,,False,True,True,False,True,False,True,10
+9765,11027.0,73.0,60-74,1,Male,,,False,True,False,True,False,False,True,10
+9773,6161.0,68.0,60-74,1,Male,25.393431120318084,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+9791,3416.0,69.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+9794,4101.0,74.0,60-74,1,Male,26.769779892920884,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+9803,5774.0,57.0,45-59,0,Female,20.679012345679013,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+9819,13457.0,60.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+9823,16921.0,77.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+9833,20060.0,74.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+9850,14941.0,79.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+9860,4710.0,85.0,75+,1,Male,23.372576177285318,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+9863,15322.0,58.0,45-59,0,Female,,,False,False,True,False,False,False,True,10
+9865,20167.0,56.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+9867,7276.0,81.0,75+,1,Male,19.531249999999996,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+9869,8286.0,67.0,60-74,0,Female,20.227025721531216,Normal (18.5-24.9),False,False,True,True,True,False,True,10
+9873,21626.0,44.0,30-44,0,Female,,,False,True,False,False,False,False,True,10
+9875,20737.0,71.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+9891,12170.0,57.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+9892,16677.0,48.0,45-59,1,Male,27.885187388459254,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+9897,21600.0,62.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+9929,11217.0,71.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+9930,18960.0,60.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+9943,8797.0,70.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+9952,18995.0,24.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+9953,2039.0,59.0,45-59,0,Female,23.38868655818771,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+9962,15411.0,64.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+9979,21516.0,65.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+9981,12121.0,51.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+9982,11405.0,33.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+9992,4586.0,33.0,30-44,0,Female,26.29757785467128,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+9994,2525.0,52.0,45-59,1,Male,26.672763298277697,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+9995,1944.0,65.0,60-74,1,Male,33.247876942797625,Obese (>=30.0),True,False,False,False,False,True,False,10
+10029,322.0,77.0,75+,0,Female,25.61728395061728,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+10054,329.0,300.0,,1,Male,23.030045351473927,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+10061,12117.0,68.0,60-74,1,Male,,,False,False,True,True,True,False,True,10
+10076,1397.0,83.0,75+,0,Female,16.049382716049383,Underweight (<18.5),False,True,True,False,False,False,True,10
+10093,1729.0,87.0,75+,0,Female,24.218749999999996,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+10102,3950.0,89.0,75+,1,Male,21.874999999999996,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+10115,12854.0,34.0,30-44,0,Female,,,False,False,True,False,True,False,True,10
+10130,5649.0,79.0,75+,0,Female,25.15589569160998,Overweight (25.0-29.9),False,False,False,True,False,False,True,10
+10131,2668.0,82.0,75+,0,Female,22.34351559258195,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+10141,804.0,73.0,60-74,1,Male,25.437480812245077,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+10143,1099.0,69.0,60-74,0,Female,26.528510346119035,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+10151,4634.0,59.0,45-59,0,Female,32.17993079584775,Obese (>=30.0),True,False,False,False,False,True,False,10
+10152,5924.0,34.0,30-44,1,Male,31.14186851211073,Obese (>=30.0),True,False,False,False,False,True,False,10
+10160,3543.0,72.0,60-74,0,Female,25.71100826707804,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+10177,329.0,300.0,,1,Male,23.030045351473927,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+10180,2382.0,60.0,60-74,1,Male,21.79930795847751,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+10181,17748.0,40.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+10196,11886.0,75.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+10200,14296.0,71.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+10205,8338.0,41.0,30-44,0,Female,,,False,False,False,False,True,False,True,10
+10206,18533.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+10207,17568.0,74.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+10210,17381.0,54.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+10214,11449.0,51.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+10215,18811.0,22.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+10238,16384.0,76.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+10240,8776.0,65.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+10244,14832.0,66.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+10250,18361.0,33.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+10255,17870.0,33.0,30-44,0,Female,,,True,False,False,True,False,False,False,10
+10261,21059.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+10268,21191.0,65.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+10272,8327.0,69.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+10283,14800.0,64.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+10318,6673.0,46.0,45-59,1,Male,23.683171790710933,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+10327,1563.0,33.0,30-44,0,Female,30.449826989619382,Obese (>=30.0),True,False,False,False,False,True,False,10
+10336,3198.0,87.0,75+,1,Male,23.875114784205696,Normal (18.5-24.9),False,False,True,True,False,False,True,10
+10342,322.0,77.0,75+,0,Female,25.61728395061728,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+10344,2170.0,78.0,75+,1,Male,22.265624999999996,Normal (18.5-24.9),False,False,True,True,True,False,True,10
+10356,16512.0,41.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+10358,5425.0,34.0,30-44,0,Female,25.64891761567662,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+10359,7297.0,76.0,75+,0,Female,33.057851239669425,Obese (>=30.0),False,False,False,True,False,False,True,10
+10380,11701.0,51.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+10383,1129.0,72.0,60-74,1,Male,24.341758286340216,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+10388,7811.0,64.0,60-74,0,Female,22.145328719723185,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+10401,7192.0,68.0,60-74,1,Male,23.588329220496444,Normal (18.5-24.9),False,False,True,True,False,False,True,10
+10431,9829.0,27.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+10484,2869.0,35.0,30-44,0,Female,27.041644131963228,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+10489,13229.0,26.0,<30,1,Male,,,True,False,False,True,False,False,False,10
+10501,18534.0,84.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+10517,2466.0,89.0,75+,0,Female,21.258503401360546,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+10519,18676.0,35.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+10537,4043.0,38.0,30-44,1,Male,24.141519250780433,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+10547,6385.0,55.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+10563,3203.0,300.0,,1,Male,21.484374999999996,Normal (18.5-24.9),False,False,True,True,True,False,True,10
+10585,1345.0,58.0,45-59,1,Male,24.609733700642796,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+10589,2875.0,51.0,45-59,1,Male,26.502116213757365,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+10594,8247.0,65.0,60-74,1,Male,,,False,False,True,False,True,False,True,10
+10596,5597.0,45.0,45-59,0,Female,33.77098851155157,Obese (>=30.0),True,False,False,False,False,True,False,10
+10614,21413.0,39.0,30-44,0,Female,,,False,True,False,False,False,False,True,10
+10615,5650.0,66.0,60-74,0,Female,,,False,True,True,False,False,False,True,10
+10624,7859.0,44.0,30-44,1,Male,27.469135802469133,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+10640,6816.0,82.0,75+,0,Female,21.604938271604937,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+10660,13576.0,60.0,60-74,1,Male,,,False,True,False,True,False,False,True,10
+10661,9919.0,52.0,45-59,0,Female,,,False,False,True,True,False,False,True,10
+10666,15706.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+10675,13629.0,84.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+10687,8805.0,35.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+10691,4344.0,55.0,45-59,1,Male,23.19109461966605,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+10731,11726.0,79.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+10743,1921.0,72.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+10755,7544.0,75.0,75+,0,Female,13.571518747632874,Underweight (<18.5),False,True,True,False,False,False,True,10
+10760,5638.0,29.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+10766,11726.0,79.0,75+,0,Female,,,False,False,True,True,True,False,True,10
+10806,9274.0,53.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+10807,13868.0,86.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+10822,1384.0,11.0,<30,1,Male,17.578124999999996,Underweight (<18.5),False,False,False,True,False,False,True,10
+10824,4974.0,33.0,30-44,0,Female,35.713195567900854,Obese (>=30.0),True,False,False,False,False,True,False,10
+10828,20375.0,54.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+10837,20001.0,66.0,60-74,1,Male,,,False,True,True,True,True,False,True,10
+10846,10796.0,83.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+10847,9613.0,63.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+10860,18959.0,87.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+10878,13868.0,86.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+10887,18151.0,47.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+10888,13868.0,86.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+10902,17568.0,74.0,60-74,0,Female,,,False,True,True,True,False,False,True,10
+10925,17663.0,74.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+10950,5318.0,59.0,45-59,0,Female,24.337479718766904,Normal (18.5-24.9),False,True,True,True,True,False,True,10
+10965,10725.0,85.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+10970,2072.0,46.0,45-59,0,Female,25.351541373715524,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+10984,1445.0,70.0,60-74,1,Male,19.94805976890361,Normal (18.5-24.9),False,True,True,False,False,False,True,10
+10990,1122.0,44.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+11010,21694.0,82.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+11020,3855.0,82.0,75+,1,Male,23.372576177285318,Normal (18.5-24.9),False,False,False,True,True,False,True,10
+11030,9410.0,78.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+11055,9219.0,64.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+11077,7623.0,67.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+11102,12772.0,67.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+11103,9129.0,63.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+11108,18954.0,67.0,60-74,0,Female,,,False,True,True,True,False,False,True,10
+11113,3147.0,51.0,45-59,0,Female,27.09925100681245,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+11124,7686.0,28.0,<30,0,Female,26.218820861678008,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+11125,6363.0,62.0,60-74,1,Male,24.242424242424246,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+11126,2233.0,53.0,45-59,0,Female,29.06122448979592,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+11129,7227.0,34.0,30-44,1,Male,19.13265306122449,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+11132,2168.0,64.0,60-74,0,Female,26.19618735008206,Overweight (25.0-29.9),False,False,True,False,True,False,True,10
+11139,2474.0,61.0,60-74,0,Female,,,False,True,True,False,True,False,True,10
+11144,1160.0,55.0,45-59,0,Female,22.99262444384723,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+11152,9186.0,65.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+11170,19786.0,65.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+11182,21778.0,56.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+11212,12783.0,78.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+11226,15243.0,62.0,60-74,0,Female,,,False,False,True,True,False,False,True,10
+11230,9846.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+11238,10861.0,50.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+11285,10861.0,50.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+11286,11582.0,75.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+11319,20790.0,55.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+11336,14055.0,45.0,45-59,0,Female,,,False,True,False,True,False,False,True,10
+11359,21553.0,69.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+11364,21650.0,48.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+11371,17181.0,68.0,60-74,0,Female,,,False,False,False,False,False,False,False,10
+11372,20751.0,47.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+11406,20898.0,74.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+11411,9149.0,39.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+11418,13679.0,300.0,,1,Male,,,False,False,False,True,False,False,True,10
+11420,13629.0,84.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+11441,12916.0,79.0,75+,0,Female,,,False,False,False,True,True,False,True,10
+11453,16018.0,72.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+11468,8336.0,80.0,75+,0,Female,,,False,False,False,False,False,False,False,10
+11474,13400.0,300.0,,1,Male,,,False,False,False,True,False,False,True,10
+11477,9781.0,79.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+11487,12517.0,77.0,75+,0,Female,,,False,False,False,False,False,False,False,10
+11489,11408.0,67.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+11490,12644.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+11500,13887.0,300.0,,1,Male,,,False,True,False,True,False,False,True,10
+11520,9005.0,67.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+11530,20601.0,28.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+11532,10387.0,19.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+11533,18719.0,77.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+11550,18719.0,77.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+11564,13373.0,40.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+11575,9842.0,42.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+11601,18111.0,62.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+11605,12255.0,67.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+11616,10369.0,82.0,75+,1,Male,,,False,True,True,False,False,False,True,10
+11644,15762.0,49.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+11645,8388.0,61.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+11664,11991.0,67.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+11679,20141.0,30.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+11681,10233.0,48.0,45-59,1,Male,,,False,False,True,True,True,False,True,10
+11686,18058.0,62.0,60-74,0,Female,,,False,True,True,True,False,False,True,10
+11705,8445.0,34.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+11711,8762.0,72.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+11723,19518.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+11727,18670.0,51.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+11738,4169.0,47.0,45-59,0,Female,26.29757785467128,Overweight (25.0-29.9),False,False,False,True,False,False,True,10
+11739,19038.0,19.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+11755,15631.0,76.0,75+,1,Male,,,False,True,True,False,True,False,True,10
+11758,6276.0,82.0,75+,1,Male,24.444444444444443,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+11788,16870.0,77.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+11789,8503.0,22.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+11799,17249.0,58.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+11802,11015.0,43.0,30-44,0,Female,,,True,False,False,True,False,False,False,10
+11803,13455.0,57.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+11805,21651.0,40.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+11832,17190.0,72.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+11834,4988.0,40.0,30-44,1,Male,28.685144680698485,Overweight (25.0-29.9),False,False,False,True,False,False,True,10
+11842,13781.0,26.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+11843,13781.0,26.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+11853,1024.0,64.0,60-74,0,Female,25.05930702662969,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+11855,8288.0,60.0,60-74,0,Female,,,False,True,True,False,False,False,True,10
+11868,16795.0,57.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+11872,15943.0,59.0,45-59,0,Female,,,False,True,False,False,True,False,True,10
+11884,16698.0,65.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+11885,8628.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+11896,19461.0,86.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+11899,8388.0,61.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+11901,19461.0,86.0,75+,1,Male,,,False,False,True,False,True,False,True,10
+11916,9715.0,55.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+11932,15735.0,39.0,30-44,0,Female,,,True,False,False,True,False,False,False,10
+11933,21446.0,67.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+11934,21446.0,67.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+11937,793.0,300.0,,1,Male,20.811654526534856,Normal (18.5-24.9),False,True,True,True,False,False,True,10
+11956,17691.0,70.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+11982,357.0,83.0,75+,1,Male,17.03923080043815,Underweight (<18.5),False,False,False,False,False,False,False,10
+12027,16783.0,84.0,75+,1,Male,,,False,False,False,False,False,False,False,10
+12028,16783.0,84.0,75+,1,Male,,,False,False,True,True,False,False,True,10
+12031,504.0,69.0,60-74,0,Female,20.902385858042937,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+12033,21386.0,56.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+12034,2506.0,65.0,60-74,1,Male,34.96357960457856,Obese (>=30.0),True,False,False,False,False,True,False,10
+12074,7908.0,47.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+12082,18812.0,33.0,30-44,1,Male,,,True,False,False,True,False,False,False,10
+12112,20694.0,68.0,60-74,1,Male,32.83097978719196,Obese (>=30.0),False,True,False,False,False,False,True,10
+12122,5766.0,76.0,75+,1,Male,26.959840341724732,Overweight (25.0-29.9),False,False,False,False,True,False,True,10
+12124,6916.0,70.0,60-74,1,Male,26.83864765261977,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+12126,4515.0,83.0,75+,0,Female,24.242424242424246,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+12137,2290.0,84.0,75+,1,Male,19.57168128269788,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+12143,535.0,72.0,60-74,1,Male,20.202020202020204,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+12144,6601.0,40.0,30-44,0,Female,31.073540713020815,Obese (>=30.0),True,False,False,False,False,True,False,10
+12147,5173.0,61.0,60-74,0,Female,21.877551020408163,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+12156,4419.0,300.0,,1,Male,19.04432132963989,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+12169,9472.0,75.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+12172,15109.0,50.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+12176,16042.0,87.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+12178,19226.0,61.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+12179,17070.0,50.0,45-59,0,Female,,,True,False,False,True,False,False,False,10
+12181,12576.0,61.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+12189,9029.0,82.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+12190,13119.0,77.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+12192,12202.0,71.0,60-74,0,Female,,,False,False,False,True,True,False,True,10
+12195,12202.0,71.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+12197,13119.0,77.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+12199,17861.0,45.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+12201,19742.0,66.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+12216,12546.0,55.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+12220,12440.0,28.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+12221,21745.0,84.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+12223,18277.0,72.0,60-74,1,Male,,,False,True,False,True,False,False,True,10
+12224,9692.0,44.0,30-44,0,Female,,,False,True,False,False,False,False,True,10
+12230,21715.0,68.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+12235,10043.0,83.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+12241,18299.0,51.0,45-59,1,Male,,,False,True,False,True,False,False,True,10
+12252,18001.0,69.0,60-74,1,Male,,,False,False,True,False,True,False,True,10
+12254,21715.0,68.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+12262,13944.0,89.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+12276,5927.0,37.0,30-44,1,Male,23.18339100346021,Normal (18.5-24.9),True,False,False,True,False,False,False,10
+12277,14199.0,44.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+12281,13944.0,89.0,75+,1,Male,,,False,False,True,True,False,False,True,10
+12285,4069.0,83.0,75+,1,Male,30.48668503213958,Obese (>=30.0),False,True,False,False,False,False,True,10
+12301,6442.0,88.0,75+,1,Male,25.390624999999996,Overweight (25.0-29.9),False,False,False,False,True,False,True,10
+12310,511.0,81.0,75+,1,Male,19.555555555555557,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+12328,6109.0,62.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+12336,6891.0,63.0,60-74,0,Female,23.030045351473927,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+12338,14881.0,65.0,60-74,0,Female,,,False,False,True,False,True,False,True,10
+12340,5873.0,63.0,60-74,0,Female,25.381468541909282,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+12345,5942.0,68.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+12348,5363.0,75.0,75+,1,Male,35.45644837455679,Obese (>=30.0),True,False,False,False,False,True,False,10
+12353,1867.0,80.0,75+,1,Male,23.711844630960897,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+12355,2894.0,69.0,60-74,1,Male,26.92743764172336,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+12376,20950.0,58.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+12400,11104.0,62.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+12407,14659.0,53.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+12409,5282.0,39.0,30-44,0,Female,35.83266147093075,Obese (>=30.0),True,False,False,False,False,True,False,10
+12426,18277.0,72.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+12451,6988.0,55.0,45-59,1,Male,27.636054421768712,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+12475,7365.0,59.0,45-59,0,Female,29.26334020126011,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+12478,1503.0,50.0,45-59,0,Female,30.756367762548894,Obese (>=30.0),True,False,False,False,False,True,False,10
+12480,5042.0,68.0,60-74,1,Male,30.818540433925047,Obese (>=30.0),True,False,False,False,False,True,False,10
+12516,7714.0,82.0,75+,0,Female,25.680074054167036,Overweight (25.0-29.9),False,False,False,False,False,False,False,10
+12519,511.0,81.0,75+,1,Male,19.555555555555557,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+12520,17381.0,55.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+12521,502.0,82.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+12528,4244.0,59.0,45-59,0,Female,27.16644791062544,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+12529,3673.0,44.0,30-44,1,Male,26.83864765261977,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+12532,357.0,83.0,75+,1,Male,17.03923080043815,Underweight (<18.5),False,False,False,False,False,False,False,10
+12533,21408.0,60.0,60-74,0,Female,,,False,True,True,False,False,False,True,10
+12545,502.0,82.0,75+,1,Male,,,False,True,True,False,False,False,True,10
+12552,1873.0,65.0,60-74,1,Male,24.3910588392529,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+12568,19758.0,71.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+12576,5352.0,72.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+12577,4273.0,72.0,60-74,1,Male,22.07409972299169,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+12585,493.0,84.0,75+,1,Male,17.31301939058172,Underweight (<18.5),False,False,True,False,True,False,True,10
+12596,511.0,81.0,75+,1,Male,19.555555555555557,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+12607,2553.0,70.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+12609,511.0,81.0,75+,1,Male,19.555555555555557,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+12618,7032.0,69.0,60-74,0,Female,27.09925100681245,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+12619,5648.0,68.0,60-74,1,Male,32.847300112161506,Obese (>=30.0),True,False,False,False,False,True,False,10
+12620,511.0,81.0,75+,1,Male,19.555555555555557,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+12631,2588.0,67.0,60-74,0,Female,29.384756657483933,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+12641,535.0,72.0,60-74,1,Male,20.202020202020204,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+12646,493.0,84.0,75+,1,Male,17.31301939058172,Underweight (<18.5),False,False,True,False,True,False,True,10
+12649,493.0,84.0,75+,1,Male,17.31301939058172,Underweight (<18.5),False,False,True,False,True,False,True,10
+12677,5341.0,62.0,60-74,1,Male,26.709401709401707,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+12679,2355.0,83.0,75+,0,Female,,,False,False,True,True,True,False,True,10
+12692,6898.0,69.0,60-74,0,Female,20.811654526534856,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+12699,6509.0,27.0,<30,0,Female,25.25951557093426,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+12702,4248.0,31.0,30-44,1,Male,31.95592286501378,Obese (>=30.0),True,False,False,False,False,True,False,10
+12703,4015.0,71.0,60-74,1,Male,30.38501560874089,Obese (>=30.0),False,False,False,True,False,False,True,10
+12709,15291.0,70.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+12710,9219.0,65.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+12711,6454.0,64.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+12715,9910.0,60.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+12719,1850.0,61.0,60-74,0,Female,23.738662131519277,Normal (18.5-24.9),False,True,False,False,True,False,True,10
+12720,1440.0,44.0,30-44,1,Male,25.55932915514163,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+12742,4678.0,60.0,60-74,1,Male,22.839506172839506,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+12758,996.0,300.0,,1,Male,28.566481994459835,Overweight (25.0-29.9),False,True,True,False,False,False,True,10
+12770,7926.0,71.0,60-74,1,Male,25.969529085872576,Overweight (25.0-29.9),False,False,True,True,False,False,True,10
+12776,4797.0,69.0,60-74,0,Female,24.675500270416443,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+12785,504.0,69.0,60-74,0,Female,20.902385858042937,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+12801,18225.0,70.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+12828,16405.0,49.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+12835,14399.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+12841,8023.0,52.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+12870,8023.0,52.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+12886,4007.0,31.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+12919,4986.0,44.0,30-44,1,Male,22.476586888657646,Normal (18.5-24.9),True,False,False,True,False,False,False,10
+12925,5811.0,74.0,60-74,0,Female,21.20099137030069,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+12936,1406.0,78.0,75+,0,Female,23.335466144755166,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+12937,4224.0,69.0,60-74,1,Male,31.217481789802285,Obese (>=30.0),False,False,False,True,False,False,True,10
+12941,6684.0,61.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+12991,18608.0,84.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+12999,7304.0,50.0,45-59,0,Female,34.086605226612804,Obese (>=30.0),True,False,False,False,False,True,False,10
+13006,15712.0,73.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+13007,19974.0,38.0,30-44,1,Male,,,False,False,True,False,False,False,True,10
+13014,8895.0,65.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+13025,16559.0,61.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+13035,6176.0,36.0,30-44,0,Female,30.299204645878046,Obese (>=30.0),True,False,False,False,False,True,False,10
+13052,21775.0,35.0,30-44,0,Female,,,True,False,False,True,False,False,False,10
+13058,18608.0,84.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+13078,15813.0,67.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+13092,20296.0,40.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+13120,16856.0,72.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+13122,6878.0,84.0,75+,1,Male,21.30394857667585,Normal (18.5-24.9),False,False,True,True,True,False,True,10
+13131,18608.0,84.0,75+,0,Female,,,False,False,False,False,False,False,False,10
+13139,14855.0,65.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+13143,16307.0,56.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+13145,18250.0,67.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+13158,8528.0,84.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+13166,13944.0,89.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+13167,21794.0,79.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+13212,16092.0,34.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+13214,10372.0,62.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+13227,15567.0,78.0,75+,0,Female,,,False,True,True,False,False,False,True,10
+13233,13648.0,59.0,45-59,0,Female,,,False,True,True,False,True,False,True,10
+13238,8701.0,300.0,,1,Male,,,False,False,True,False,False,False,True,10
+13248,11496.0,76.0,75+,0,Female,,,False,False,True,True,False,False,True,10
+13267,10955.0,46.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+13268,16959.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+13282,20584.0,48.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+13292,20811.0,65.0,60-74,1,Male,,,False,False,True,False,True,False,True,10
+13301,13965.0,61.0,60-74,0,Female,,,False,False,True,False,True,False,True,10
+13314,8335.0,56.0,45-59,1,Male,,,True,False,False,True,False,False,False,10
+13333,8352.0,84.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+13335,14559.0,88.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+13337,14559.0,88.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+13338,10018.0,87.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+13349,19086.0,34.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+13361,12506.0,40.0,30-44,0,Female,,,False,False,True,False,False,False,True,10
+13370,12465.0,45.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+13380,19220.0,46.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+13397,19052.0,37.0,30-44,0,Female,,,False,False,True,False,False,False,True,10
+13398,20811.0,65.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+13400,20135.0,64.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+13404,19873.0,56.0,45-59,0,Female,17.71541950113379,Underweight (<18.5),True,False,False,False,False,True,False,10
+13405,7990.0,78.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+13446,13840.0,73.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+13479,18631.0,50.0,45-59,0,Female,,,False,False,True,False,False,False,True,10
+13494,19272.0,68.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+13499,11335.0,82.0,75+,1,Male,,,False,True,True,True,False,False,True,10
+13516,12402.0,84.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+13556,8788.0,67.0,60-74,0,Female,,,False,True,True,True,True,False,True,10
+13577,11335.0,82.0,75+,1,Male,,,False,True,True,False,False,False,True,10
+13595,16047.0,69.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+13612,21749.0,86.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+13630,11041.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+13642,14913.0,55.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+13666,5548.0,4.0,<30,1,Male,,,False,False,False,False,True,False,True,10
+13711,19515.0,32.0,30-44,0,Female,,,False,False,False,True,False,False,True,10
+13712,15286.0,22.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+13717,2722.0,62.0,60-74,1,Male,29.43213296398892,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+13744,5682.0,68.0,60-74,0,Female,21.736505252988767,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+13777,10893.0,64.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+13786,19734.0,48.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+13812,2623.0,79.0,75+,0,Female,23.507805325987146,Normal (18.5-24.9),True,False,False,True,False,False,False,10
+13819,21338.0,56.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+13835,3089.0,87.0,75+,0,Female,,,False,True,False,False,True,False,True,10
+13847,11706.0,59.0,45-59,0,Female,,,False,True,True,False,False,False,True,10
+13848,21761.0,58.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+13849,13343.0,67.0,60-74,1,Male,,,False,True,False,True,False,False,True,10
+13853,13343.0,67.0,60-74,1,Male,,,False,True,False,True,False,False,True,10
+13855,13343.0,67.0,60-74,1,Male,,,False,True,True,True,False,False,True,10
+13860,13193.0,59.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+13867,12093.0,53.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+13879,19220.0,47.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+13887,12564.0,30.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+13895,9910.0,61.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+13899,11269.0,71.0,60-74,0,Female,,,False,False,True,False,True,False,True,10
+13908,21560.0,49.0,45-59,1,Male,,,False,False,False,True,True,False,True,10
+13912,5242.0,65.0,60-74,1,Male,22.308149910767405,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+13913,5806.0,68.0,60-74,0,Female,21.98989236526368,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+13918,10094.0,22.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+13923,15242.0,44.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+13926,16014.0,56.0,45-59,0,Female,,,False,False,False,True,False,False,True,10
+13946,1493.0,67.0,60-74,0,Female,23.671253629592222,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+13954,6088.0,85.0,75+,1,Male,27.09925100681245,Overweight (25.0-29.9),False,False,True,True,False,False,True,10
+13955,16014.0,56.0,45-59,0,Female,,,False,False,False,True,False,False,True,10
+13959,10523.0,24.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+13971,3022.0,78.0,75+,1,Male,22.145328719723185,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+13993,701.0,46.0,45-59,1,Male,21.230572023714146,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+14004,3798.0,85.0,75+,1,Male,21.513858510523864,Normal (18.5-24.9),False,True,True,True,True,False,True,10
+14005,1306.0,83.0,75+,1,Male,17.48178980228928,Underweight (<18.5),False,True,False,True,False,False,True,10
+14018,19421.0,54.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+14021,20776.0,71.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+14026,6544.0,72.0,60-74,0,Female,22.582709172343712,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+14027,5875.0,62.0,60-74,1,Male,25.71166207529844,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+14071,6741.0,71.0,60-74,1,Male,23.725286160249738,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+14097,2153.0,71.0,60-74,1,Male,21.227887617065555,Normal (18.5-24.9),True,False,False,True,False,False,False,10
+14107,3401.0,35.0,30-44,1,Male,36.73094582185492,Obese (>=30.0),True,False,False,False,False,True,False,10
+14123,7387.0,64.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+14131,14388.0,36.0,30-44,1,Male,,,False,False,True,False,False,False,True,10
+14138,13952.0,28.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+14139,9944.0,60.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+14145,13671.0,51.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+14146,19513.0,55.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+14149,15879.0,62.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+14159,19513.0,55.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+14166,19511.0,79.0,75+,0,Female,,,False,False,True,True,False,False,True,10
+14167,15023.0,80.0,75+,1,Male,,,False,False,True,False,True,False,True,10
+14170,18905.0,59.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+14177,12745.0,32.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+14184,17691.0,71.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+14187,13838.0,45.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+14192,11439.0,83.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+14194,19668.0,86.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+14201,10836.0,83.0,75+,0,Female,,,False,False,True,True,True,False,True,10
+14205,19177.0,65.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+14217,12500.0,57.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+14220,13157.0,32.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+14224,8859.0,84.0,75+,0,Female,,,False,False,True,True,False,False,True,10
+14238,20559.0,83.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+14244,8694.0,80.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+14248,17488.0,38.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+14256,19831.0,51.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+14288,20185.0,73.0,60-74,0,Female,,,True,False,False,True,False,False,False,10
+14301,12445.0,43.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+14304,17745.0,40.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+14314,16356.0,69.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+14315,10982.0,53.0,45-59,0,Female,,,False,False,False,False,True,False,True,10
+14350,886.0,65.0,60-74,1,Male,26.54320987654321,Overweight (25.0-29.9),False,True,True,False,True,False,True,10
+14356,8024.0,33.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+14375,3481.0,39.0,30-44,0,Female,23.40750912892856,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+14382,19439.0,80.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+14384,5232.0,72.0,60-74,0,Female,34.602076124567475,Obese (>=30.0),False,False,True,False,False,False,True,10
+14392,14881.0,66.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+14400,19439.0,80.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+14409,10835.0,25.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+14424,12255.0,69.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+14427,15083.0,83.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+14446,10914.0,300.0,,1,Male,,,False,True,True,False,False,False,True,10
+14448,671.0,61.0,60-74,0,Female,19.562955254942764,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+14457,1249.0,37.0,30-44,1,Male,20.32443825510934,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+14459,4594.0,62.0,60-74,0,Female,25.71166207529844,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+14501,1259.0,59.0,45-59,1,Male,26.346494034400994,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+14534,5360.0,79.0,75+,0,Female,25.25951557093426,Overweight (25.0-29.9),False,True,False,True,False,False,True,10
+14565,5050.0,50.0,45-59,0,Female,29.75778546712803,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+14580,18701.0,59.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+14585,10318.0,55.0,45-59,0,Female,,,False,True,True,False,False,False,True,10
+14597,3367.0,66.0,60-74,0,Female,27.428571428571427,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+14613,5999.0,63.0,60-74,1,Male,27.548209366391188,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+14620,4953.0,46.0,45-59,1,Male,29.384756657483933,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+14627,18620.0,39.0,30-44,0,Female,,,False,True,False,False,False,False,True,10
+14628,9761.0,82.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+14634,1535.0,58.0,45-59,1,Male,32.03987184051263,Obese (>=30.0),True,False,False,False,False,True,False,10
+14637,3841.0,59.0,45-59,0,Female,26.122448979591837,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+14647,7777.0,75.0,75+,1,Male,23.306680053067517,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+14653,7864.0,13.0,<30,1,Male,20.109164033323754,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+14662,6658.0,60.0,60-74,1,Male,20.028841531805796,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+14667,6901.0,86.0,75+,1,Male,19.13265306122449,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+14670,740.0,74.0,60-74,0,Female,22.093170054286073,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+14674,7737.0,63.0,60-74,1,Male,34.99747006240513,Obese (>=30.0),False,False,True,False,False,False,True,10
+14678,5657.0,71.0,60-74,0,Female,27.09925100681245,Overweight (25.0-29.9),False,False,False,True,False,False,True,10
+14713,9124.0,81.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+14729,2619.0,300.0,,1,Male,19.555555555555557,Normal (18.5-24.9),False,True,True,True,True,False,True,10
+14731,18540.0,84.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+14745,5527.0,68.0,60-74,1,Male,,,False,False,True,False,True,False,True,10
+14746,7097.0,50.0,45-59,0,Female,28.721121070571897,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+14762,19279.0,55.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+14771,16358.0,59.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+14775,11660.0,65.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+14781,10286.0,78.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+14792,10286.0,78.0,75+,1,Male,,,False,False,False,False,False,False,False,10
+14805,9893.0,54.0,45-59,1,Male,,,False,False,False,False,True,False,True,10
+14814,11723.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+14836,16126.0,56.0,45-59,0,Female,,,False,False,True,True,True,False,True,10
+14851,11723.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+14869,8962.0,65.0,60-74,0,Female,,,False,False,True,False,True,False,True,10
+14912,12415.0,73.0,60-74,0,Female,26.365603028664147,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+14923,3921.0,32.0,30-44,0,Female,24.48565200513601,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+14937,7175.0,78.0,75+,1,Male,24.444444444444443,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+14938,17162.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+14944,6969.0,69.0,60-74,1,Male,25.61728395061728,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+14946,14116.0,55.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+14965,7440.0,74.0,60-74,0,Female,27.160493827160494,Overweight (25.0-29.9),False,False,True,False,True,False,True,10
+14976,9325.0,72.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+15001,390.0,16.0,<30,1,Male,16.731112433075552,Underweight (<18.5),True,False,False,False,False,True,False,10
+15015,4462.0,33.0,30-44,1,Male,39.03926234384296,Obese (>=30.0),True,False,False,False,False,True,False,10
+15024,14829.0,83.0,75+,0,Female,,,False,True,True,False,False,False,True,10
+15034,8324.0,49.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+15057,2019.0,49.0,45-59,1,Male,29.61580591504726,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+15059,15353.0,81.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+15064,15353.0,81.0,75+,0,Female,,,False,False,True,True,False,False,True,10
+15074,17722.0,46.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+15090,6977.0,32.0,30-44,0,Female,29.761904761904766,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+15094,6812.0,60.0,60-74,0,Female,28.54828131630724,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+15101,1050.0,79.0,75+,1,Male,31.88775510204082,Obese (>=30.0),False,False,False,True,False,False,True,10
+15136,5529.0,68.0,60-74,0,Female,33.057851239669425,Obese (>=30.0),True,False,False,False,False,True,False,10
+15139,10372.0,63.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+15141,20107.0,55.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+15180,12255.0,69.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+15203,13008.0,88.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+15207,9105.0,86.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+15221,17578.0,69.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+15227,13393.0,52.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+15235,12422.0,56.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+15259,20107.0,55.0,45-59,0,Female,,,False,True,True,False,False,False,True,10
+15279,10836.0,83.0,75+,0,Female,,,False,True,True,True,False,False,True,10
+15297,17929.0,66.0,60-74,0,Female,,,False,False,True,True,False,False,True,10
+15377,16237.0,47.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+15384,11556.0,43.0,30-44,1,Male,,,False,False,True,False,True,False,True,10
+15391,13671.0,51.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+15400,12097.0,68.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+15421,16734.0,84.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+15438,14800.0,67.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+15444,13898.0,84.0,75+,0,Female,,,False,False,False,False,False,False,False,10
+15447,8521.0,71.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+15461,8007.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+15484,17430.0,20.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+15487,8226.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+15500,10486.0,83.0,75+,1,Male,,,False,True,True,False,True,False,True,10
+15507,8772.0,47.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+15526,9501.0,77.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+15532,9501.0,77.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+15548,18897.0,46.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+15549,17381.0,57.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+15573,11439.0,84.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+15575,16635.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+15588,21474.0,28.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+15631,14931.0,73.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+15638,15126.0,40.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+15647,13008.0,88.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+15652,4427.0,62.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+15674,3316.0,76.0,75+,1,Male,31.596260387811633,Obese (>=30.0),True,False,False,False,False,True,False,10
+15677,13240.0,18.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+15689,3779.0,66.0,60-74,0,Female,27.636054421768712,Overweight (25.0-29.9),True,False,False,True,False,False,False,10
+15715,21508.0,45.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+15723,17691.0,72.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+15729,5955.0,57.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+15732,14612.0,47.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+15737,7963.0,63.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+15744,936.0,61.0,60-74,1,Male,24.55775234131113,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+15757,4724.0,81.0,75+,1,Male,22.058051188683873,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+15787,10684.0,71.0,60-74,1,Male,,,False,False,True,False,True,False,True,10
+15795,20267.0,51.0,45-59,1,Male,24.96494647925858,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+15796,10943.0,45.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+15797,8281.0,77.0,75+,0,Female,,,False,False,True,False,True,False,True,10
+15798,11257.0,89.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+15800,8134.0,83.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+15803,15587.0,68.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+15809,20021.0,68.0,60-74,0,Female,,,False,True,True,False,True,False,True,10
+15810,13471.0,45.0,45-59,0,Female,,,False,True,False,True,False,False,True,10
+15817,21386.0,58.0,45-59,1,Male,,,False,False,False,True,False,False,True,10
+15821,11562.0,74.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+15834,8905.0,82.0,75+,1,Male,,,False,False,False,False,False,False,False,10
+15841,15056.0,81.0,75+,0,Female,,,False,False,False,False,False,False,False,10
+15852,8151.0,80.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+15857,19454.0,300.0,,1,Male,,,False,False,False,False,False,False,False,10
+15858,15057.0,59.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+15863,17025.0,68.0,60-74,0,Female,,,False,False,True,False,True,False,True,10
+15864,13372.0,43.0,30-44,1,Male,,,False,False,True,False,False,False,True,10
+15865,16937.0,52.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+15871,16938.0,79.0,75+,0,Female,,,False,True,True,False,True,False,True,10
+15874,2947.0,42.0,30-44,0,Female,41.09977324263039,Obese (>=30.0),False,False,True,False,False,False,True,10
+15897,17622.0,63.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+15898,20598.0,61.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+15899,10512.0,51.0,45-59,1,Male,,,False,False,False,True,False,False,True,10
+15900,17622.0,63.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+15901,5689.0,63.0,60-74,0,Female,26.575890590940304,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+15924,5596.0,63.0,60-74,1,Male,34.894398530762174,Obese (>=30.0),False,True,False,False,False,False,True,10
+15926,4051.0,84.0,75+,1,Male,22.506925207756233,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+15930,2147.0,42.0,30-44,1,Male,23.875114784205696,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+15948,20398.0,49.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+15950,7728.0,64.0,60-74,1,Male,35.62901744719927,Obese (>=30.0),False,True,False,False,False,False,True,10
+15954,3541.0,75.0,75+,0,Female,28.719723183391007,Overweight (25.0-29.9),False,False,False,True,True,False,True,10
+15958,16462.0,82.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+15959,17622.0,63.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+15988,1270.0,71.0,60-74,1,Male,21.258503401360546,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+16003,20598.0,61.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+16010,7591.0,50.0,45-59,0,Female,27.102040816326532,Overweight (25.0-29.9),False,True,True,False,False,False,True,10
+16024,2127.0,78.0,75+,1,Male,23.661438615467823,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+16035,6419.0,51.0,45-59,0,Female,25.381468541909282,Overweight (25.0-29.9),True,False,False,True,False,False,False,10
+16038,14193.0,72.0,60-74,0,Female,,,False,True,True,True,True,False,True,10
+16045,2059.0,61.0,60-74,0,Female,25.605536332179934,Overweight (25.0-29.9),False,False,False,False,True,False,True,10
+16046,14193.0,72.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+16061,4352.0,72.0,60-74,0,Female,23.510204081632654,Normal (18.5-24.9),False,True,True,False,True,False,True,10
+16076,4808.0,81.0,75+,0,Female,34.96357960457856,Obese (>=30.0),False,False,False,False,False,False,False,10
+16077,3538.0,76.0,75+,1,Male,20.820939916716245,Normal (18.5-24.9),False,True,False,True,False,False,True,10
+16100,10455.0,67.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+16101,9777.0,68.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+16119,14053.0,73.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+16127,20886.0,63.0,60-74,1,Male,,,False,True,False,True,False,False,True,10
+16129,16745.0,38.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+16132,11847.0,82.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+16135,12422.0,57.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+16144,21339.0,43.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+16147,11794.0,72.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+16149,15487.0,72.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+16150,19415.0,70.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+16152,11815.0,49.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+16168,11815.0,49.0,45-59,0,Female,,,False,True,False,True,False,False,True,10
+16182,13652.0,68.0,60-74,1,Male,,,False,False,False,False,True,False,True,10
+16187,14199.0,46.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+16193,8479.0,43.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+16205,5432.0,64.0,60-74,0,Female,21.672110130948383,Normal (18.5-24.9),True,False,False,True,False,False,False,10
+16214,2958.0,61.0,60-74,1,Male,33.057851239669425,Obese (>=30.0),False,False,True,False,True,False,True,10
+16224,10958.0,69.0,60-74,1,Male,,,False,False,True,False,True,False,True,10
+16225,12511.0,66.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+16233,5558.0,24.0,<30,1,Male,21.04981790236894,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+16239,904.0,79.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+16260,3908.0,89.0,75+,1,Male,21.63114885435026,Normal (18.5-24.9),False,False,True,True,False,False,True,10
+16261,4442.0,72.0,60-74,0,Female,21.847008520333322,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+16264,19831.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+16272,7833.0,82.0,75+,0,Female,22.265624999999996,Normal (18.5-24.9),False,True,True,True,False,False,True,10
+16288,17220.0,76.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+16340,18494.0,60.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+16355,9239.0,41.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+16357,6802.0,83.0,75+,1,Male,,,False,True,True,True,True,False,True,10
+16407,3049.0,34.0,30-44,0,Female,23.875114784205696,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+16425,14449.0,75.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+16427,3973.0,72.0,60-74,0,Female,17.916330735465376,Underweight (<18.5),False,True,False,True,False,False,True,10
+16463,6727.0,67.0,60-74,1,Male,23.828124999999996,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+16465,5703.0,77.0,75+,0,Female,31.88775510204082,Obese (>=30.0),False,True,False,True,False,False,True,10
+16468,14449.0,75.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+16469,14183.0,43.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+16499,11291.0,38.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+16511,2047.0,71.0,60-74,1,Male,25.781249999999996,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+16526,4621.0,70.0,60-74,1,Male,17.116346110535563,Underweight (<18.5),False,False,False,True,False,False,True,10
+16529,4699.0,59.0,45-59,0,Female,25.826446280991735,Overweight (25.0-29.9),False,False,False,True,False,False,True,10
+16532,19983.0,80.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+16534,7742.0,55.0,45-59,1,Male,22.4058769513315,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+16535,11584.0,78.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+16537,1509.0,44.0,30-44,1,Male,25.781249999999996,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+16542,20890.0,65.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+16543,10790.0,70.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+16563,6092.0,64.0,60-74,1,Male,22.589551436050055,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+16564,4297.0,74.0,60-74,1,Male,25.781249999999996,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+16566,11424.0,87.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+16572,3787.0,33.0,30-44,1,Male,24.999999999999996,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+16591,1404.0,74.0,60-74,1,Male,33.462224866151104,Obese (>=30.0),False,False,True,False,False,False,True,10
+16596,21315.0,56.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+16602,7037.0,61.0,60-74,0,Female,25.30864197530864,Overweight (25.0-29.9),False,False,True,True,False,False,True,10
+16603,4964.0,22.0,<30,1,Male,33.87406375851557,Obese (>=30.0),True,False,False,False,False,True,False,10
+16605,2751.0,87.0,75+,1,Male,25.969529085872576,Overweight (25.0-29.9),False,False,False,False,False,False,False,10
+16609,2737.0,82.0,75+,1,Male,24.609374999999996,Normal (18.5-24.9),False,True,True,False,True,False,True,10
+16637,1579.0,59.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+16647,9381.0,37.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+16651,1358.0,52.0,45-59,0,Female,25.61728395061728,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+16658,11584.0,78.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+16674,13554.0,58.0,45-59,1,Male,,,False,False,False,True,False,False,True,10
+16692,19028.0,63.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+16700,8313.0,72.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+16707,14010.0,28.0,<30,1,Male,,,False,False,True,False,False,False,True,10
+16712,18256.0,48.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+16735,15951.0,68.0,60-74,0,Female,23.66524436157625,Normal (18.5-24.9),False,False,True,True,False,False,True,10
+16748,8313.0,72.0,60-74,0,Female,,,False,False,False,True,True,False,True,10
+16750,18192.0,87.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+16780,1726.0,23.0,<30,0,Female,20.37037037037037,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+16782,445.0,82.0,75+,0,Female,18.812147272238644,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+16783,1865.0,73.0,60-74,1,Male,25.969529085872576,Overweight (25.0-29.9),False,False,True,False,True,False,True,10
+16792,4871.0,63.0,60-74,0,Female,24.772096710265558,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+16803,4615.0,72.0,60-74,1,Male,22.07409972299169,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+16807,5674.0,89.0,75+,1,Male,20.703124999999996,Normal (18.5-24.9),False,True,True,False,False,False,True,10
+16815,848.0,36.0,30-44,1,Male,22.783308885490467,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+16817,3850.0,27.0,<30,0,Female,22.694018931589476,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+16834,18192.0,87.0,75+,1,Male,,,False,False,False,False,False,False,False,10
+16861,5308.0,76.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+16865,4129.0,42.0,30-44,0,Female,24.78425751739377,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+16871,9056.0,63.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+16876,10046.0,41.0,30-44,0,Female,,,False,False,True,False,True,False,True,10
+16883,17664.0,71.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+16898,12973.0,77.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+16905,445.0,82.0,75+,0,Female,18.812147272238644,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+16908,1332.0,82.0,75+,1,Male,22.265624999999996,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+16915,21354.0,65.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+16920,8013.0,75.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+16944,3504.0,75.0,75+,1,Male,22.321428571428577,Normal (18.5-24.9),False,False,False,False,True,False,True,10
+16952,1862.0,82.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+16955,20368.0,76.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+16975,390.0,17.0,<30,1,Male,16.731112433075552,Underweight (<18.5),True,False,True,False,False,False,False,10
+16993,1083.0,38.0,30-44,0,Female,25.5649539199596,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+16994,1825.0,40.0,30-44,1,Male,21.007667798746546,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+17000,13997.0,55.0,45-59,0,Female,,,False,True,False,True,False,False,True,10
+17007,13997.0,55.0,45-59,0,Female,,,False,True,False,True,False,False,True,10
+17021,21723.0,57.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+17083,11842.0,73.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+17084,21723.0,57.0,45-59,1,Male,,,False,False,False,True,False,False,True,10
+17091,11842.0,73.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+17140,15392.0,61.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+17169,14432.0,52.0,45-59,0,Female,,,True,False,False,True,False,False,False,10
+17176,17697.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+17192,9381.0,37.0,30-44,0,Female,,,True,False,False,True,False,False,False,10
+17193,16365.0,57.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+17202,17083.0,52.0,45-59,1,Male,,,False,False,False,True,False,False,True,10
+17214,11570.0,48.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+17226,11709.0,73.0,60-74,1,Male,,,False,False,False,False,True,False,True,10
+17244,11634.0,83.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+17247,13219.0,63.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+17252,18008.0,32.0,30-44,1,Male,,,False,False,True,False,False,False,True,10
+17259,11539.0,87.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+17286,21088.0,67.0,60-74,1,Male,,,False,True,True,False,True,False,True,10
+17290,16522.0,37.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+17297,13134.0,81.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+17298,11584.0,78.0,75+,1,Male,,,False,False,True,False,True,False,True,10
+17309,14640.0,60.0,60-74,0,Female,,,False,False,True,False,True,False,True,10
+17316,11937.0,86.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+17323,9935.0,71.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+17325,16295.0,69.0,60-74,0,Female,,,False,False,False,False,True,False,True,10
+17358,20584.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+17370,12914.0,45.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+17371,21241.0,84.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+17386,13134.0,81.0,75+,0,Female,,,False,False,False,False,False,False,False,10
+17401,18530.0,84.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+17403,18530.0,84.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+17404,20116.0,70.0,60-74,0,Female,,,False,True,True,False,False,False,True,10
+17419,15374.0,42.0,30-44,1,Male,,,False,True,False,False,False,False,True,10
+17420,16325.0,56.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+17430,20116.0,70.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+17431,18530.0,84.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+17455,13050.0,36.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+17482,8023.0,54.0,45-59,0,Female,,,False,True,False,True,False,False,True,10
+17511,5591.0,61.0,60-74,1,Male,18.36547291092746,Underweight (<18.5),True,False,False,False,False,True,False,10
+17525,1459.0,61.0,60-74,0,Female,26.395803401383272,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+17536,7430.0,69.0,60-74,1,Male,26.346494034400994,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+17539,10836.0,84.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+17547,6228.0,43.0,30-44,0,Female,27.143037495265748,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+17575,10617.0,53.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+17577,15871.0,37.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+17590,10342.0,63.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+17592,17895.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+17593,16394.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+17608,14651.0,38.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+17617,3703.0,65.0,60-74,1,Male,22.656249999999996,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+17621,10058.0,54.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+17623,10058.0,54.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+17638,1164.0,75.0,75+,0,Female,22.49134948096886,Normal (18.5-24.9),False,False,False,True,True,False,True,10
+17641,17431.0,46.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+17648,7507.0,58.0,45-59,1,Male,31.22130394857668,Obese (>=30.0),False,False,True,False,False,False,True,10
+17655,4503.0,58.0,45-59,0,Female,24.725182932941294,Normal (18.5-24.9),False,False,True,False,False,False,True,10
+17658,6065.0,80.0,75+,1,Male,18.590124925639504,Normal (18.5-24.9),False,True,True,False,False,False,True,10
+17661,3730.0,19.0,<30,0,Female,21.146319909102385,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+17676,11784.0,31.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+17689,19523.0,48.0,45-59,1,Male,,,True,False,False,True,False,False,False,10
+17690,12182.0,79.0,75+,1,Male,,,False,False,True,True,True,False,True,10
+17700,19059.0,73.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+17701,10947.0,60.0,60-74,0,Female,,,False,False,False,False,True,False,True,10
+17711,14072.0,42.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+17719,2349.0,86.0,75+,1,Male,17.63085399449036,Underweight (<18.5),False,True,False,True,False,False,True,10
+17731,1892.0,59.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+17737,14405.0,64.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+17739,6670.0,62.0,60-74,1,Male,22.10028959000152,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+17744,1471.0,71.0,60-74,0,Female,30.071168431955627,Obese (>=30.0),False,True,False,False,False,False,True,10
+17748,712.0,80.0,75+,0,Female,26.122448979591837,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+17749,20398.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+17780,923.0,65.0,60-74,0,Female,25.46938775510204,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+17805,4183.0,43.0,30-44,0,Female,26.528510346119035,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+17808,3690.0,75.0,75+,0,Female,23.719609250647608,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+17818,7839.0,57.0,45-59,0,Female,27.465303140978815,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+17827,7136.0,81.0,75+,1,Male,24.654832347140037,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+17839,7047.0,72.0,60-74,1,Male,26.953124999999996,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+17860,2596.0,24.0,<30,1,Male,22.230987127541326,Normal (18.5-24.9),False,False,True,True,False,False,True,10
+17865,1048.0,41.0,30-44,0,Female,29.036737785633125,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+17866,584.0,67.0,60-74,1,Male,34.62603878116344,Obese (>=30.0),False,True,False,False,True,False,True,10
+17868,584.0,67.0,60-74,1,Male,34.62603878116344,Obese (>=30.0),False,True,False,False,True,False,True,10
+17870,1907.0,80.0,75+,1,Male,23.624447492760247,Normal (18.5-24.9),False,False,True,True,False,False,True,10
+17885,14460.0,27.0,<30,0,Female,,,False,False,False,True,False,False,True,10
+17888,9937.0,68.0,60-74,1,Male,,,True,False,False,True,False,False,False,10
+17891,12507.0,35.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+17904,12192.0,85.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+17906,16492.0,65.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+17909,14957.0,65.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+17910,9579.0,61.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+17918,15619.0,45.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+17919,11785.0,62.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+17920,11439.0,85.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+17921,18112.0,83.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+17935,14195.0,65.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+17936,18652.0,30.0,30-44,0,Female,,,False,False,False,True,False,False,True,10
+17937,19059.0,73.0,60-74,1,Male,,,False,False,False,True,True,False,True,10
+17951,16102.0,52.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+17959,1494.0,69.0,60-74,1,Male,27.915518824609737,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+17970,5237.0,46.0,45-59,1,Male,35.00319921713275,Obese (>=30.0),True,False,False,False,False,True,False,10
+17983,7533.0,83.0,75+,0,Female,26.729927495071667,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+17995,2987.0,84.0,75+,1,Male,25.45235781387385,Overweight (25.0-29.9),False,False,True,True,True,False,True,10
+17996,5007.0,43.0,30-44,1,Male,19.721036967980208,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+18017,584.0,67.0,60-74,1,Male,34.62603878116344,Obese (>=30.0),False,False,False,False,True,False,True,10
+18019,18110.0,57.0,45-59,0,Female,,,False,True,True,False,False,False,True,10
+18055,10146.0,56.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+18056,16813.0,68.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+18057,18110.0,57.0,45-59,0,Female,,,False,True,True,False,False,False,True,10
+18068,3971.0,77.0,75+,0,Female,23.503556057507403,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+18111,727.0,75.0,75+,0,Female,25.661152034778407,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+18121,326.0,59.0,45-59,1,Male,18.144868631151112,Underweight (<18.5),False,False,False,True,False,False,True,10
+18131,10158.0,89.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+18132,2940.0,75.0,75+,1,Male,25.969529085872576,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+18134,3537.0,79.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+18140,326.0,59.0,45-59,1,Male,18.144868631151112,Underweight (<18.5),False,False,True,True,False,False,True,10
+18162,18477.0,66.0,60-74,1,Male,,,False,False,True,False,True,False,True,10
+18172,7679.0,44.0,30-44,1,Male,22.07409972299169,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+18175,1750.0,55.0,45-59,1,Male,24.609733700642796,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+18200,6369.0,41.0,30-44,1,Male,29.017447199265384,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+18202,9497.0,59.0,45-59,1,Male,,,False,False,False,True,False,False,True,10
+18232,2754.0,49.0,45-59,1,Male,31.249999999999993,Obese (>=30.0),True,False,False,False,False,True,False,10
+18234,1142.0,61.0,60-74,1,Male,24.999999999999996,Normal (18.5-24.9),False,False,True,False,True,False,True,10
+18240,5566.0,52.0,45-59,1,Male,30.116002379535995,Obese (>=30.0),False,False,False,True,False,False,True,10
+18256,442.0,68.0,60-74,0,Female,25.142857142857142,Overweight (25.0-29.9),False,True,True,False,False,False,True,10
+18266,442.0,68.0,60-74,0,Female,25.142857142857142,Overweight (25.0-29.9),True,False,True,False,False,False,False,10
+18295,19830.0,62.0,60-74,1,Male,,,False,True,False,True,False,False,True,10
+18296,5117.0,61.0,60-74,1,Male,27.055150884495315,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+18332,1724.0,17.0,<30,0,Female,37.87400580734756,Obese (>=30.0),True,False,False,True,False,False,False,10
+18363,17537.0,78.0,75+,0,Female,,,False,True,True,False,False,False,True,10
+18364,18137.0,67.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+18365,17156.0,64.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+18367,5134.0,61.0,60-74,0,Female,28.40550435551067,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+18392,2244.0,38.0,30-44,1,Male,25.96454217209623,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+18416,8068.0,68.0,60-74,1,Male,25.71166207529844,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+18421,18137.0,67.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+18422,14163.0,81.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+18425,17790.0,84.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+18432,16372.0,76.0,75+,0,Female,,,False,True,True,True,True,False,True,10
+18464,8024.0,35.0,30-44,1,Male,,,False,False,True,False,False,False,True,10
+18473,11894.0,56.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+18490,12580.0,55.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+18499,9407.0,81.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+18501,15991.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+18506,20964.0,70.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+18519,18505.0,75.0,75+,1,Male,26.562499999999996,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+18520,13186.0,52.0,45-59,1,Male,,,False,True,True,True,False,False,True,10
+18548,9407.0,81.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+18592,16374.0,87.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+18612,20214.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+18620,9353.0,55.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+18638,1003.0,77.0,75+,0,Female,22.724403484408533,Normal (18.5-24.9),False,False,False,True,False,False,True,10
+18639,4502.0,74.0,60-74,1,Male,28.353057199211044,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+18644,3866.0,88.0,75+,0,Female,19.47714681440443,Normal (18.5-24.9),False,True,False,False,True,False,True,10
+18656,19685.0,65.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+18661,10954.0,75.0,75+,0,Female,,,True,False,False,False,False,True,False,10
+18671,9441.0,87.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+18673,4066.0,76.0,75+,0,Female,22.857142857142858,Normal (18.5-24.9),True,False,False,False,False,True,False,10
+18676,14696.0,82.0,75+,1,Male,,,False,False,True,False,True,False,True,10
+18708,10458.0,68.0,60-74,1,Male,31.249999999999993,Obese (>=30.0),False,False,True,False,False,False,True,10
+18710,9871.0,70.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+18712,9636.0,63.0,60-74,0,Female,,,False,True,True,False,True,False,True,10
+18737,9425.0,79.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+18739,20835.0,82.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+18740,18520.0,45.0,45-59,1,Male,,,False,True,False,False,False,False,True,10
+18742,21508.0,47.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+18752,9871.0,70.0,60-74,0,Female,,,False,True,True,True,False,False,True,10
+18756,13186.0,52.0,45-59,1,Male,,,False,True,True,False,False,False,True,10
+18758,9579.0,61.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+18761,18837.0,68.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+18762,16354.0,66.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+18775,14195.0,65.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+18777,9407.0,81.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+18797,8559.0,57.0,45-59,0,Female,,,False,True,False,True,False,False,True,10
+18802,19829.0,67.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+18808,9376.0,72.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+18831,15274.0,58.0,45-59,1,Male,,,False,False,False,True,False,False,True,10
+18847,9604.0,27.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+18859,20974.0,82.0,75+,0,Female,,,False,True,True,True,False,False,True,10
+18882,17292.0,52.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+18888,17639.0,75.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+18891,13884.0,54.0,45-59,0,Female,,,False,False,False,True,False,False,True,10
+18914,18837.0,68.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+18916,14800.0,69.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+18937,20755.0,67.0,60-74,0,Female,29.352354500694357,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+18974,20916.0,57.0,45-59,0,Female,,,False,False,False,True,False,False,True,10
+18982,18837.0,68.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+19017,17941.0,63.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+19042,11107.0,74.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+19053,14659.0,56.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+19054,16647.0,300.0,,0,Female,,,False,True,False,False,False,False,True,10
+19067,9451.0,59.0,45-59,0,Female,22.79032897344431,Normal (18.5-24.9),False,True,False,False,False,False,True,10
+19074,11323.0,69.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+19077,13689.0,18.0,<30,1,Male,,,True,False,False,False,False,True,False,10
+19081,12866.0,17.0,<30,0,Female,,,False,False,False,True,False,False,True,10
+19097,11424.0,88.0,75+,1,Male,,,False,True,True,False,False,False,True,10
+19104,9042.0,70.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+19134,17641.0,73.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+19147,21451.0,18.0,<30,1,Male,,,False,False,False,True,False,False,True,10
+19164,19343.0,89.0,75+,1,Male,,,False,False,True,True,False,False,True,10
+19187,14213.0,64.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+19208,13306.0,64.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+19209,16280.0,57.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+19213,9842.0,46.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+19217,18359.0,48.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+19226,16006.0,33.0,30-44,1,Male,,,False,False,True,False,False,False,True,10
+19231,16102.0,53.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+19250,18503.0,56.0,45-59,0,Female,,,False,False,True,False,False,False,True,10
+19251,21738.0,55.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+19254,18503.0,56.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+19256,14328.0,65.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+19267,10837.0,67.0,60-74,0,Female,,,False,False,True,True,True,False,True,10
+19268,15666.0,83.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+19271,16237.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+19286,16861.0,53.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+19287,12507.0,36.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+19291,14328.0,65.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+19293,18850.0,57.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+19305,15115.0,73.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+19314,19831.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+19316,16839.0,60.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+19324,9789.0,42.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+19328,9875.0,67.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+19330,18837.0,69.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+19333,12442.0,66.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+19334,12971.0,74.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+19345,12182.0,80.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+19350,16369.0,68.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+19353,19389.0,87.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+19370,19389.0,87.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+19376,12442.0,66.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+19388,11424.0,89.0,75+,1,Male,,,False,True,True,False,False,False,True,10
+19396,19389.0,87.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+19402,9579.0,62.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+19408,18542.0,63.0,60-74,0,Female,,,False,False,True,True,False,False,True,10
+19409,12045.0,82.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+19412,17414.0,50.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+19424,13052.0,38.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+19427,21485.0,41.0,30-44,1,Male,,,False,False,True,False,False,False,True,10
+19432,12298.0,21.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+19461,13032.0,42.0,30-44,1,Male,,,True,False,False,True,False,False,False,10
+19466,20266.0,68.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+19507,16049.0,88.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+19517,20736.0,61.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+19526,16510.0,83.0,75+,1,Male,,,False,True,True,False,True,False,True,10
+19547,11785.0,63.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+19571,15609.0,63.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+19572,20035.0,51.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+19605,14515.0,72.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+19661,21236.0,58.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+19664,18530.0,85.0,75+,1,Male,,,False,False,False,True,True,False,True,10
+19669,17218.0,57.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+19670,17427.0,71.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+19686,14081.0,33.0,30-44,0,Female,,,False,True,False,True,True,False,True,10
+19695,14363.0,83.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+19701,19760.0,42.0,30-44,1,Male,,,False,False,False,True,False,False,True,10
+19703,17922.0,72.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+19723,17374.0,28.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+19726,8761.0,67.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+19780,21793.0,77.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+19848,20824.0,85.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+19853,17338.0,74.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+19858,8166.0,84.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+19867,20558.0,45.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+19877,15609.0,64.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+19882,12815.0,56.0,45-59,0,Female,,,False,False,False,True,False,False,True,10
+19884,20999.0,63.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+19893,11891.0,79.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+19906,14689.0,85.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+19914,9938.0,78.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+19920,12346.0,44.0,30-44,1,Male,,,False,False,False,True,False,False,True,10
+19924,18837.0,69.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+19929,13751.0,65.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+19935,8166.0,84.0,75+,1,Male,,,False,True,True,True,False,False,True,10
+19942,12442.0,66.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+19951,18335.0,60.0,60-74,1,Male,,,False,False,False,True,False,False,True,10
+19955,16874.0,69.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+19956,9042.0,71.0,60-74,1,Male,,,False,True,False,False,False,False,True,10
+19959,20695.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+19960,14170.0,35.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+19981,18837.0,69.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+19987,10531.0,56.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+19990,16366.0,80.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+20023,13886.0,68.0,60-74,1,Male,29.744199881023206,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+20024,20736.0,62.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+20037,13306.0,65.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+20049,21063.0,78.0,75+,0,Female,,,False,False,True,False,False,False,True,10
+20068,18081.0,67.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+20079,19732.0,76.0,75+,0,Female,25.529644871208653,Overweight (25.0-29.9),False,True,False,False,False,False,True,10
+20084,21624.0,72.0,60-74,0,Female,,,False,False,True,False,False,False,True,10
+20085,14180.0,74.0,60-74,1,Male,,,False,False,False,False,False,False,False,10
+20100,20027.0,57.0,45-59,1,Male,,,False,False,False,True,False,False,True,10
+20117,10217.0,73.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+20120,20027.0,57.0,45-59,1,Male,,,False,False,False,True,False,False,True,10
+20127,18637.0,64.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+20141,19955.0,300.0,,0,Female,,,False,False,False,True,False,False,True,10
+20149,18033.0,19.0,<30,0,Female,,,True,False,False,False,False,True,False,10
+20152,18313.0,74.0,60-74,1,Male,,,False,False,True,False,False,False,True,10
+20198,20512.0,70.0,60-74,0,Female,,,True,False,False,False,False,True,False,10
+20211,13870.0,43.0,30-44,0,Female,,,False,False,False,False,True,False,True,10
+20214,19973.0,87.0,75+,1,Male,,,False,True,True,True,True,False,True,10
+20220,19905.0,70.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+20224,19973.0,87.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+20236,13308.0,65.0,60-74,0,Female,,,False,False,True,False,True,False,True,10
+20240,17394.0,47.0,45-59,1,Male,,,False,True,True,False,False,False,True,10
+20241,19636.0,38.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+20242,10497.0,78.0,75+,0,Female,,,False,False,False,False,True,False,True,10
+20252,12203.0,84.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+20280,10937.0,56.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+20288,10264.0,79.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+20301,18629.0,76.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+20313,13920.0,71.0,60-74,1,Male,,,False,True,False,True,False,False,True,10
+20317,13744.0,57.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+20330,15609.0,64.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+20356,21092.0,36.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+20369,15739.0,43.0,30-44,0,Female,,,False,False,False,False,True,False,True,10
+20387,15739.0,43.0,30-44,0,Female,,,True,False,False,False,False,True,False,10
+20401,17065.0,58.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+20402,17065.0,58.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+20406,17065.0,58.0,45-59,0,Female,,,False,False,False,False,False,False,False,10
+20515,20774.0,89.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+20523,15483.0,54.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+20536,12512.0,89.0,75+,1,Male,,,False,True,False,True,False,False,True,10
+20549,15816.0,65.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+20563,21513.0,77.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+20566,21218.0,59.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+20576,21218.0,59.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+20602,20774.0,89.0,75+,1,Male,,,False,False,True,True,False,False,True,10
+20603,21218.0,59.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+20624,17969.0,50.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+20646,17939.0,75.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+20671,17523.0,66.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+20674,18246.0,57.0,45-59,0,Female,,,False,False,False,True,False,False,True,10
+20684,13573.0,73.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+20724,14747.0,79.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+20730,17523.0,66.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+20753,19849.0,55.0,45-59,0,Female,,,False,False,True,False,False,False,True,10
+20775,18450.0,77.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+20776,21784.0,47.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+20801,19026.0,52.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+20831,10694.0,61.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+20865,14863.0,300.0,,1,Male,,,False,True,False,True,False,False,True,10
+20873,14657.0,46.0,45-59,0,Female,26.122448979591837,Overweight (25.0-29.9),False,False,True,False,False,False,True,10
+20887,21758.0,46.0,45-59,0,Female,26.19618735008206,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+20891,15371.0,50.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+20893,17409.0,88.0,75+,1,Male,,,False,False,False,True,False,False,True,10
+20902,7991.0,66.0,60-74,1,Male,,,False,True,False,True,False,False,True,10
+20905,9731.0,66.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+20939,13241.0,81.0,75+,1,Male,,,False,False,True,False,False,False,True,10
+20943,8542.0,52.0,45-59,0,Female,26.42356982428326,Overweight (25.0-29.9),True,False,False,False,False,True,False,10
+20950,9934.0,81.0,75+,0,Female,,,False,False,False,True,True,False,True,10
+20958,9871.0,73.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+20966,19420.0,84.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+20974,15030.0,77.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+21004,20912.0,77.0,75+,1,Male,,,False,True,True,False,False,False,True,10
+21011,21218.0,59.0,45-59,1,Male,,,False,False,False,True,False,False,True,10
+21017,21218.0,59.0,45-59,1,Male,,,False,False,True,False,False,False,True,10
+21021,14309.0,53.0,45-59,0,Female,,,False,False,True,False,True,False,True,10
+21028,17351.0,89.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+21036,19600.0,59.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+21071,14180.0,75.0,75+,1,Male,,,False,False,False,False,False,False,False,10
+21085,19420.0,84.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+21093,19420.0,84.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+21099,9076.0,46.0,45-59,0,Female,,,False,False,True,False,False,False,True,10
+21104,21200.0,72.0,60-74,0,Female,,,False,True,True,False,True,False,True,10
+21111,15897.0,77.0,75+,0,Female,,,False,False,False,True,False,False,True,10
+21148,17570.0,44.0,30-44,1,Male,,,False,False,False,True,False,False,True,10
+21163,17570.0,44.0,30-44,1,Male,,,False,True,False,True,False,False,True,10
+21173,9309.0,70.0,60-74,0,Female,,,False,True,True,False,True,False,True,10
+21177,21738.0,57.0,45-59,1,Male,,,True,False,False,False,False,True,False,10
+21181,17570.0,44.0,30-44,1,Male,,,False,False,False,True,False,False,True,10
+21205,16858.0,64.0,60-74,0,Female,,,False,True,False,False,False,False,True,10
+21306,20430.0,49.0,45-59,0,Female,,,False,True,False,False,False,False,True,10
+21325,17347.0,83.0,75+,0,Female,,,False,False,False,True,True,False,True,10
+21363,13640.0,80.0,75+,0,Female,,,False,True,False,False,False,False,True,10
+21385,11287.0,69.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+21391,8700.0,47.0,45-59,0,Female,,,True,False,False,False,False,True,False,10
+21431,19115.0,70.0,60-74,1,Male,,,False,False,True,True,True,False,True,10
+21444,20461.0,35.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+21555,15028.0,81.0,75+,1,Male,,,False,False,True,False,True,False,True,10
+21584,14848.0,82.0,75+,1,Male,,,False,True,False,False,False,False,True,10
+21622,10552.0,41.0,30-44,1,Male,,,True,False,False,False,False,True,False,10
+21673,12998.0,66.0,60-74,1,Male,,,False,False,True,False,True,False,True,10
+21675,12998.0,66.0,60-74,1,Male,,,False,False,True,True,True,False,True,10
+21764,12154.0,64.0,60-74,0,Female,,,False,True,False,True,False,False,True,10
+21796,17746.0,85.0,75+,0,Female,,,False,True,False,True,False,False,True,10
+21809,12931.0,69.0,60-74,1,Male,,,True,False,False,False,False,True,False,10
+21812,20789.0,67.0,60-74,0,Female,,,False,False,False,True,False,False,True,10
+21818,19204.0,84.0,75+,1,Male,,,True,False,False,False,False,True,False,10
+21819,9843.0,54.0,45-59,0,Female,,,False,False,False,True,False,False,True,10
+21826,9178.0,82.0,75+,1,Male,,,False,True,False,False,False,False,True,10
