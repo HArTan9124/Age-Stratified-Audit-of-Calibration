@@ -2,7 +2,7 @@
 
 Research code for an age-stratified reliability audit of a literature-competitive 12-lead ECG classifier on the PhysioNet **PTB-XL v1.0.3** database.
 
-**Authors:** Harshit Tandon, Bhekumuzi Mkhululi Mathunjwa, Rachit Ranka
+**Authors:** Harshit Tandon (Chandigarh University), Bhekumuzi Mkhululi Mathunjwa (Yuan Ze University), Rachit Ranka (Chandigarh University)
 
 > Most ECG deep-learning papers report a single pooled accuracy figure. That number says nothing about whether a model's confidence can be trusted, or whether it serves older patients as well as younger ones. This repository accompanies a manuscript that audits one such classifier along three axes a pooled number leaves untested — **calibration, distribution-free (conformal) uncertainty, and explanation stability** — each measured inside four age bands (`<40`, `40–65`, `65–80`, `80+`) rather than on the population average.
 
