@@ -636,6 +636,86 @@
    "frac_positive": 1.0
   }
  },
+ "calibration_resampling_stability_record_level": {
+  "n_cal_resamples": 300,
+  "set_size": {
+   "<40": {
+    "mean": 1.3396009389671362,
+    "sd": 0.08723211575951496,
+    "pct": [
+     1.2077464788732395,
+     1.4788732394366197
+    ]
+   },
+   "40-65": {
+    "mean": 2.313275596612779,
+    "sd": 0.18273788618977746,
+    "pct": [
+     1.9135103926096997,
+     2.61844688221709
+    ]
+   },
+   "65-80": {
+    "mean": 2.2161393596986816,
+    "sd": 0.13509668055582041,
+    "pct": [
+     1.9933968926553673,
+     2.523622881355932
+    ]
+   },
+   "80+": {
+    "mean": 2.6633823529411766,
+    "sd": 0.27853817252304897,
+    "pct": [
+     2.1323529411764706,
+     3.183897058823529
+    ]
+   }
+  },
+  "coverage": {
+   "<40": {
+    "mean": 0.8738028169014084,
+    "sd": 0.023845351889167924,
+    "pct": [
+     0.8237676056338028,
+     0.9190140845070423
+    ]
+   },
+   "40-65": {
+    "mean": 0.8948229407236337,
+    "sd": 0.014157771718532407,
+    "pct": [
+     0.8637413394919169,
+     0.9197748267898384
+    ]
+   },
+   "65-80": {
+    "mean": 0.8829096045197741,
+    "sd": 0.015472603522883672,
+    "pct": [
+     0.8531073446327684,
+     0.9138418079096046
+    ]
+   },
+   "80+": {
+    "mean": 0.8471666666666666,
+    "sd": 0.03234964184008616,
+    "pct": [
+     0.7851470588235294,
+     0.9162499999999999
+    ]
+   }
+  },
+  "slope_per_decade": {
+   "mean": 0.21834714264766864,
+   "pct": [
+    0.11997484493207387,
+    0.30730412151270414
+   ],
+   "frac_positive": 1.0
+  }
+ },
+ "calibration_resampling_stability_note": "'calibration_resampling_stability' is the patient-cluster rerun (Revision_M1_M2.ipynb, M2). 'calibration_resampling_stability_record_level' is the record-level run produced by analysis/11_confound_signal_quality_and_trend_tests.py (commit ab1cf463); the manuscript quotes this run (mean slope +0.218/decade, band means 1.34/2.31/2.22/2.66).",
  "explanation_consistency_test": {
   "classes": [
    "NORM",
