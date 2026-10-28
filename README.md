@@ -114,10 +114,20 @@ If you use this code or its findings, please cite the accompanying manuscript:
 @misc{tandon2026agestratified,
   title  = {Age-Stratified Audit of Calibration, Conformal Uncertainty,
             and Explanation Stability in Multi-Label ECG Classification on PTB-XL},
-  author = {Tandon, Harshit and Mathunjwa, Bhekumuzi Mkhululi and Ranka, Rachit},
+  author = {Tandon, Harshit and Mathunjwa, Bhekumuzi Mkhululi and Ranka, Rachit
+            and Sadrawi, Muammar},
   year   = {2026},
   note   = {Manuscript in preparation}
 }
 ```
 
 Please also cite the PTB-XL dataset: Wagner, P. et al. (2020), *PTB-XL, a Large Publicly Available Electrocardiography Dataset*, Scientific Data 7, 154.
+
+## License and trained models
+
+The code is released under the MIT License (see [LICENSE](LICENSE)). The trained
+checkpoints of all ensemble members (seed 42 and seeds 1, 7, 13), plus the HYP
+ablation model, are attached to the GitHub release
+[v1.0.0](https://github.com/HArTan9124/Age-Stratified-Audit-of-Calibration/releases/tag/v1.0.0)
+and archived on Zenodo. Place them in `outputs/` to rerun the notebooks. PTB-XL itself
+(CC BY 4.0) is not redistributed here.
