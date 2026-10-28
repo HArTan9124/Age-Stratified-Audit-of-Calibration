@@ -59,6 +59,10 @@ ptbxl_v103_changelog.txt
 # ─────────────────────────────────────────────────────────────
 papers/
 presentations/
+# Draft PDFs and reviewer letters dropped at the repo root (private; the repo is public)
+/Age_VS_ECG*.pdf
+/age_ecg.pdf
+/Comments_for_Tandon_*.docx
 
 # ─────────────────────────────────────────────────────────────
 # Local working logs
